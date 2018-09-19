@@ -1,8 +1,10 @@
 $(document).ready(function() {
   $("#fullpage").fullpage({
     //options here
-    autoScrolling: true,
-    scrollHorizontally: true,
+    // autoScrolling: true,
+    // scrollHorizontally: true,
+    css3: true,
+    continuousVertical: false,
     afterRender: function() {
       $("#header").css("opacity", 0);
     },
@@ -23,7 +25,7 @@ $(document).ready(function() {
   });
 
   //methods
-  $.fn.fullpage.setAllowScrolling(false);
+  $.fn.fullpage.setAllowScrolling(true);
 
   var audio = $("audio")[0];
 
