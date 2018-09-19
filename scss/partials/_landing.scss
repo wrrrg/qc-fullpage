@@ -1,0 +1,44 @@
+#landing {
+  background: url("../images/goodAndWell.png");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  padding: 2rem;
+
+  h1,
+  h2 {
+    color: $off-white;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 6rem;
+    font-weight: 300;
+  }
+
+  h2 {
+    font-size: 4rem;
+  }
+
+  .presents {
+    width: 100%;
+    height: auto;
+    margin-top: -100px;
+    margin-left: 5%;
+  }
+
+  @media only screen and (max-width: 700px) {
+    h1,
+    h2 {
+      margin: 0 auto;
+      text-align: center;
+    }
+    .presents {
+      margin: 0 auto;
+      position: relative;
+      top: -100px;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.player {
+  font-size: 5rem;
+  cursor: pointer;
+  color: $off-white;
+  margin-bottom: 10px;
+
+  #progress {
+    background: RED;
+    width: 500px;
+    margin: 30px;
+    color: blue;
+  }
+}
+
+#play-pause {
+  margin-right: 30px;
+}

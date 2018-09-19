@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "BebasNeue";
+  src: url("../fonts/BebasNeueRegular.woff2") format("woff2"),
+    url("../fonts/BebasNeueRegular.woff") format("woff"),
+    url("../fonts/BebasNeueRegular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BebasNeueBold";
+  src: url("../fonts/BebasNeueBold.woff2") format("woff2"),
+    url("../fonts/BebasNeueBold.woff") format("woff"),
+    url("../fonts/BebasNeueBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url("../fonts/BrandonGrotesque-Regular.woff2") format("woff2"),
+    url("../fonts/BrandonGrotesque-Regular.woff") format("woff"),
+    url("../fonts/BrandonGrotesque-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Brandon Grotesque Bold";
+  src: url("../fonts/BrandonGrotesque-Bold.woff2") format("woff2"),
+    url("../fonts/BrandonGrotesque-Bold.woff") format("woff"),
+    url("../fonts/BrandonGrotesque-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Brandon Grotesque Bold";
+  src: url("../fonts/BrandonGrotesque-Light.woff2") format("woff2"),
+    url("../fonts/BrandonGrotesque-Light.woff") format("woff"),
+    url("../fonts/BrandonGrotesque-Light.ttf") format("truetype");
+  font-weight: lighter;
+  font-style: normal;
+}
