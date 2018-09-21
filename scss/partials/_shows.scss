@@ -1,5 +1,76 @@
 #shows {
-  background: url("../images/greentilev2.png");
+  background: url("../images/taylorstage2.png");
   background-size: cover;
   background-repeat: repeat;
+  width: 100%;
+
+  font-size: 3.5rem;
+  #events-div {
+    background: $off-black-transparent;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: center;
+
+    span {
+      padding: 15px;
+    }
+  }
+  .event-div {
+    padding: 4px;
+    margin: 0 auto;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    white-space: pre;
+  }
+
+  .event-name {
+    color: #feffd4;
+  }
+
+  .event-location {
+    font-size: 3rem;
+  }
+
+  .event-uri {
+    a {
+      color: #cc9c00;
+    }
+    a:visited {
+      color: hsl(29, 89%, 44%);
+    }
+    a:hover {
+    }
+  }
+  .spacer {
+    padding: 0 9px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #shows {
+    font-size: 2rem;
+  }
+
+  #events-div {
+    margin: 3px auto;
+    padding: 12px;
+
+    span {
+      padding: 0 2px;
+    }
+
+    .event-start {
+      font-size: 1.6rem;
+    }
+    .event-location {
+      font-size: 1.6rem;
+    }
+    .spacer {
+      padding: 0 1px;
+    }
+  }
 }

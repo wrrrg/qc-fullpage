@@ -1,13 +1,64 @@
+// events ajax to songkick
+const songkick = "io09K9l3ebJxmxe2";
+const skQuietCompanyId = "582111";
+
+eventSearch = function() {
+  $("#events-div").empty();
+  $.ajax({
+    url:
+      "https://api.songkick.com/api/3.0/artists/" +
+      skQuietCompanyId +
+      "/calendar.json?apikey=" +
+      songkick,
+    method: "GET"
+  }).then(function(res) {
+    console.log(res);
+    const result = res["resultsPage"]["results"]["event"];
+    console.log(result);
+    console.log(result.length);
+
+    for (i = 0; i < result.length; i++) {
+      const displayName = result[i]["venue"]["displayName"];
+      const location = result[i]["location"]["city"];
+      const date = result[i]["start"]["date"];
+      const uri = result[i]["uri"];
+
+      const eventDiv = $("<div class='event-div'>");
+      const eventName = $("<span class='event-name'>").html(displayName);
+      const eventLocation = $("<span class='event-location'>").html(location);
+      const spacer = $("<span class='spacer'>").html(" - ");
+      const eventStart = $("<span class='event-start'>").html(date);
+      const eventUri = $("<span class='event-uri'>").html(
+        "<a href=" + uri + ">Tickets</a>"
+      );
+
+      eventDiv.append(
+        eventStart,
+        // "<span class='spacer'> - </span>",
+        eventName,
+        // "<span class='spacer'> - </span>",
+        eventLocation,
+        // spacer,
+        eventUri
+      );
+
+      $("#events-div").append(eventDiv);
+      console.log(`${displayName} - ${location} ${date}, ${uri}`);
+    }
+  });
+};
+
 $(document).ready(function() {
   $("#fullpage").fullpage({
     //options here
     // autoScrolling: true,
     // scrollHorizontally: true,
     css3: true,
-    continuousVertical: false,
-    afterRender: function() {
-      $("#header").css("opacity", 0);
-    },
+    continuousVertical: false
+    // autoScrolling: false
+    // afterRender: function() {
+    //   $("#header").css("opacity", 0);
+    // }
     // afterLoad: function(index, nextIndex) {
     //   if (index !== 0) {
     //     $("#header").css("opacity", 1);
@@ -15,13 +66,13 @@ $(document).ready(function() {
     //     $("#header").css("opacity", 0);
     //   }
     // }
-    onLeave: function(index, nextIndex, direction) {
-      if (index === 0) {
-        $("#header").css("opacity", 0);
-      } else {
-        $("#header").css("opacity", 1);
-      }
-    }
+    // onLeave: function(index, nextIndex, direction) {
+    //   if (index === 0) {
+    //     $("#header").css("opacity", 0);
+    //   } else {
+    //     $("#header").css("opacity", 1);
+    //   }
+    // }
   });
 
   //methods
@@ -45,10 +96,12 @@ $(document).ready(function() {
     $("#progress").css("width", (current_time / length) * 100 + "%");
   };
 
-  $(window).scroll(function() {
-    if ($(this).scrollTop() > 100) {
-    } else {
-      $("#header").hide();
-    }
-  });
+  eventSearch();
+
+  // $(window).scroll(function() {
+  //   if ($(this).scrollTop() > 100) {
+  //   } else {
+  //     $("#header").hide();
+  //   }
+  // });
 });

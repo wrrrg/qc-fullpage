@@ -1,10 +1,10 @@
 #landing {
-  background: url("../images/allThings.png");
+  background: url("../images/allThings2.png");
 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
+  backdrop-filter: blur(6px) contrast(0.8);
   padding: 2rem;
 
   h1,
