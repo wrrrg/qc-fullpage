@@ -75,6 +75,41 @@ $(document).ready(function() {
     // }
   });
 
+  $(".store-carousel").slick({
+    slidesToShow: 3,
+    speed: 300,
+    infinite: true,
+    dots: true,
+    arrows: true,
+    adaptiveHeight: true,
+    responsive: [
+      {
+        breakpoint: 1440,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 700,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  });
   //methods
   $.fn.fullpage.setAllowScrolling(true);
 

@@ -5,9 +5,23 @@
   width: 100%;
 
   font-size: 3.5rem;
-  #events-div {
+
+  .background {
     background: $off-black-transparent;
     height: 100%;
+    width: 100%;
+  }
+
+  h2 {
+    margin: 0 auto;
+    padding-top: 75px;
+
+    font-size: 7rem;
+    text-align: center;
+    width: 100%;
+  }
+  #events-div {
+    height: 80%;
     width: 100%;
     margin: 0 auto;
     display: flex;
