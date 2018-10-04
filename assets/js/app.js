@@ -42,6 +42,10 @@ eventSearch = function () {
 	});
 };
 
+eventFromJSON = function() {
+	
+}
+
 $(document).ready(function () {
 	let filtered = 'false';
 
