@@ -4,15 +4,17 @@
 	position: fixed;
 	height: 50px;
 	display: block;
-	width: 100%;
+	width: 93%;
 	background: rgba(0, 0, 0, 0);
 	z-index: 1;
 	text-align: center;
 	color: $off-white;
 	padding-top: 1.5rem;
+
 	h1 {
 		font-size: 2rem;
 	}
+
 	// .logo {
 	//   font-size: 3rem;
 	//   text-align: left;
@@ -20,25 +22,27 @@
 	//   margin-left: 50px;
 	// }
 }
+
 #header {
 	.menu {
 		text-align: left;
 		text-decoration: none;
 
-		float: left;
-		margin-left: 35px;
-		margin-right: -300px;
+
+		max-width: 80%;
 
 		ul {
 			color: $off-white;
 			text-decoration: none;
 		}
+
 		li {
 			display: inline;
 			text-decoration: none;
 			color: $off-white;
 			padding: 1rem;
 			padding-right: 0;
+
 			a {
 				color: $off-white;
 				text-decoration: none;

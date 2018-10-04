@@ -13,13 +13,16 @@
 @import "partials/store";
 
 body {
-	background: url("../images/bluetile.png");
+	background: $off-black-transparent;
 	background-repeat: repeat;
 	background-size: cover;
 	font-family: "BebasNeue";
 	color: $off-white;
 	width: 100%;
-} // }
+	max-width: 100%;
+}
+
+// }
 
 // /* Style for our header texts
 // 	* --------------------------------------- */
