@@ -20,6 +20,7 @@
     text-align: center;
     width: 100%;
   }
+
   #events-div {
     height: 80%;
     width: 100%;
@@ -32,13 +33,21 @@
     span {
       padding: 15px;
     }
+
+    ul {
+      width: 50%
+    }
   }
+
   .event-div {
     padding: 4px;
     margin: 0 auto;
     margin-bottom: 12px;
     margin-top: 12px;
     white-space: pre;
+    width: 80%;
+
+
   }
 
   .event-name {
@@ -53,12 +62,14 @@
     a {
       color: #cc9c00;
     }
+
     a:visited {
       color: hsl(29, 89%, 44%);
     }
-    a:hover {
-    }
+
+    a:hover {}
   }
+
   .spacer {
     padding: 0 9px;
   }
@@ -80,9 +91,11 @@
     .event-start {
       font-size: 1.6rem;
     }
+
     .event-location {
       font-size: 1.6rem;
     }
+
     .spacer {
       padding: 0 1px;
     }
