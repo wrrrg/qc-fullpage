@@ -1,15 +1,14 @@
 .player {
-  font-size: 5rem;
-  cursor: pointer;
-  color: $off-white;
-  margin-bottom: 10px;
+	font-size: 4rem;
+	cursor: pointer;
+	color: $off-white;
 
-  // #progress {
-  //   background: RED;
-  //   width: 500px;
-  //   margin: 30px;
-  //   color: blue;
-  // }
+	// #progress {
+	//   background: RED;
+	//   width: 500px;
+	//   margin: 30px;
+	//   color: blue;
+	// }
 }
 
 // #play-pause {
@@ -17,9 +16,9 @@
 // }
 
 @media only screen and (max-width: 1100px) {
-  .player {
-    // color: #333333;
+	.player {
+		// color: #333333;
 
-    font-size: 3.5rem;
-  }
+		font-size: 3.5rem;
+	}
 }

@@ -2,21 +2,23 @@
 
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700");
 @import "partials/variables";
+@import "partials/about";
 @import "partials/fonts";
 @import "partials/footer";
 @import "partials/header";
 @import "partials/landing";
-@import "partials/music";
+
 @import "partials/player";
 @import "partials/shows";
 @import "partials/store";
 
 body {
-  background: url("../images/bluetile.png");
-  background-repeat: repeat;
-  background-size: cover;
-  font-family: "BebasNeue";
-  color: $off-white;
+	background: url("../images/bluetile.png");
+	background-repeat: repeat;
+	background-size: cover;
+	font-family: "BebasNeue";
+	color: $off-white;
+	width: 100%;
 } // }
 
 // /* Style for our header texts

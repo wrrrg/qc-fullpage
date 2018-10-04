@@ -1,38 +1,48 @@
 /* Fixed header and footer.
 	* --------------------------------------- */
 #header {
-  position: fixed;
-  height: 50px;
-  display: block;
-  width: 100%;
-  background: rgba(0, 0, 0, 0);
-  z-index: 1;
-  text-align: center;
-  color: $off-white;
-  padding-top: 30px;
-  h1 {
-    font-size: 2rem;
-  }
-  // .logo {
-  //   font-size: 3rem;
-  //   text-align: left;
-  //   float: left;
-  //   margin-left: 50px;
-  // }
+	position: fixed;
+	height: 50px;
+	display: block;
+	width: 100%;
+	background: rgba(0, 0, 0, 0);
+	z-index: 1;
+	text-align: center;
+	color: $off-white;
+	padding-top: 1.5rem;
+	h1 {
+		font-size: 2rem;
+	}
+	// .logo {
+	//   font-size: 3rem;
+	//   text-align: left;
+	//   float: left;
+	//   margin-left: 50px;
+	// }
 }
 #header {
-  top: 0px;
-}
+	.menu {
+		text-align: left;
+		text-decoration: none;
 
-.social-icons {
-  // float: right;
+		float: left;
+		margin-left: 35px;
+		margin-right: -300px;
 
-  text-align: center;
-  margin: 0 auto;
-
-  li {
-    display: inline;
-    // margin: 15px;
-    padding: 5px;
-  }
+		ul {
+			color: $off-white;
+			text-decoration: none;
+		}
+		li {
+			display: inline;
+			text-decoration: none;
+			color: $off-white;
+			padding: 1rem;
+			padding-right: 0;
+			a {
+				color: $off-white;
+				text-decoration: none;
+			}
+		}
+	}
 }

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Quiet Company is a Band from Austin, TX</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
     <link rel="stylesheet" type="text/css" href="vendors/fullpage.js/dist/fullpage.css" />
@@ -12,10 +12,13 @@
     <link rel="stylesheet" type="text/css" href="vendors/slick-carousel/slick/slick-theme.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
         crossorigin="anonymous">
+    <script src="https://gumroad.com/js/gumroad.js"></script>
     <script src="vendors/jquery/dist/jquery.js"></script>
     <script src="vendors/fullpage.js/dist/fullpage.js"></script>
     <script src="vendors/slick-carousel/slick/slick.min.js"></script>
-    <script src="assets/js/app.js"></script>
+    <!-- <script src="assets/js/shows.js"></script> -->
+
+
 </head>
 
 <body>
@@ -25,12 +28,18 @@
     <div id="header">
         <h2 class="header-h2 hem subtitle">
             <!-- <span class="logo">Quiet Company</span> -->
-            <ul class="social-icons">
+            <ul class="menu">
+                <li data-menuanchor="landing" class="active"><a href="#landing">Home</a></li>
+                <li data-menuanchor="shows" class=""><a href="#shows">Shows</a></li>
+                <li data-menuanchor="store" class=""><a href="#store">Store</a></li>
+                <li data-menuanchor="about" class=""><a href="#about">About</a></li>
+            </ul>
+            <!-- <ul class="social-icons">
                 <li><i class="fab fa-facebook-f"></i></li>
                 <li><i class="fab fa-instagram"></i></li>
                 <li><i class="fab fa-twitter"></i></li>
                 <li><i class="fab fa-youtube"></i></li>
-            </ul>
+            </ul> -->
         </h2>
     </div>
     <div id="footer">
@@ -40,6 +49,14 @@
                 Listen
 
             </span>
+
+            <ul class="social-icons">
+                <li><i class="fab fa-facebook-f"></i></li>
+                <li><i class="fab fa-instagram"></i></li>
+                <li><i class="fab fa-twitter"></i></li>
+                <li><i class="fab fa-youtube"></i></li>
+            </ul>
+
             <!-- <span class="progress">Prog</span> -->
 
 
@@ -50,8 +67,8 @@
         <div class="section blur-box" id="landing">
             <div class="presents">
                 <h1>Quiet Company</h1>
-                <h3>Performs</h3>
-                <h2> All Things New</h2>
+                <h3 class="performs">Performs</h3>
+                <h2 class="track-title"> All Things New</h2>
             </div>
 
         </div>
@@ -68,31 +85,78 @@
 
             <div class='store wrapper'>
                 <h2>Store</h2>
+                <ul class="filter-list">
+                    <li class='store-filter'><span class="music-filter">Music</span></li>
+                    <li> | </li>
+                    <li class='store-filter'><span class="unfilter">All Merch</span></li>
+                    <li> | </li>
+                    <li class='store-filter'><span class="apparel-filter">Apparel</span></li>
+                </ul>
+
 
                 <div class='store-carousel'>
                     <div class="store-item">
                         <h3>We Are All Where We Belong</h3><img src="assets/images/store/belong.jpg">
+                        <ul class="store-link-list">
+                            <li><a class="store-link" href="https://gum.co/uctZ" target="_blank">Double Colored Vinyl</a></li>
+                            <li><a class="store-link" href="http://gum.co/WkpW" target="_blank">CD</a></li>
+                            <li><a class="store-link" href="http://gum.co/mBep" target="_blank">Download</a></li>
+                        </ul>
                     </div>
                     <div class="store-item">
                         <h3>Your Husband the Ghost</h3><img src="assets/images/store/husband.jpg">
+                        <ul class="store-link-list">
+                            <li><a class="store-link" href="https://gum.co/pjjJM" data-gumroad-single-product="true">Limited
+                                    Edition CD/Shirt Bundle</a></li>
+                        </ul>
                     </div>
                     <div class="store-item">
                         <h3>Songs for Staying In</h3><img src="assets/images/store/sfsi.jpg">
+                        <ul class="store-link-list">
+                            <li><a class="store-link" href="http://gum.co/DDpJl" data-gumroad-single-product="true">CD</a></li>
+                            <li><a class="store-link" href="http://gum.co/uUmp" data-gumroad-single-product="true">Download</a></li>
+                        </ul>
                     </div>
                     <div class="store-item">
                         <h3>It's Not Attractive and it Changes Nothing</h3><img src="assets/images/store/notattractive.jpg">
+                        <ul class="store-link-list">
+                            <li><a class="store-link" href="https://gum.co/MmLyb" data-gumroad-single-product="true">CD</a></li>
+                        </ul>
                     </div>
                     <div class="store-item">
                         <h3>Transgressor</h3><img src="assets/images/store/transgressor.jpg">
+                        <ul class="store-link-list">
+                            <li><a class="store-link" href="https://gum.co/dEQY" data-gumroad-single-product="true">CD</a></li>
+                            <li><a class="store-link" href="https://gum.co/cniP">VINYL</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="store-item">
+                        <h3>A Dead Man on My Back</h3><img src="assets/images/store/deadman.jpg">
+                        <ul class="store-link-list">
+                            <li><a class="store-link" href="https://gum.co/yCNhZ" data-gumroad-single-product="true">CD</a></li>
+                            <li><a class="store-link" href="https://gum.co/Kllg">COLORED VINYL</a></li>
+                            <li><a class="store-link" href="https://gum.co/pYOHy">Download</a></li>
+                        </ul>
                     </div>
 
                 </div>
+                <ul class="external-store-links">
+                    <li><a href="https://itunes.apple.com/us/artist/quiet-company/195832597">iTunes</a></li>
+                    <li><a href="https://www.amazon.com/default/e/B001LHONJK/digital/ref=ntt_mp3_rdr?_encoding=UTF8&sn=d&redirectedFromKindleDbs=true&shoppingPortalEnabled=false">Amazon
+                            Music</a></li>
+                    <li><a href="https://play.google.com/store/music/artist/Quiet_Company?id=Ay3hxk6rqpqrgr3l27jerir24hi">Google
+                            Music</a></li>
+                    <li><a href="https://quietcompany.bandcamp.com/">Band Camp</a></li>
+                </ul>
             </div>
         </div>
-        <div class="section" id="music">About / Music </div>
+        <div class="section" id="about">About / Music </div>
     </div>
 
 
+    <script src="https://gumroad.com/js/gumroad.js"></script>
+    <script src="assets/js/app.js"></script>
 </body>
 
 </html>
