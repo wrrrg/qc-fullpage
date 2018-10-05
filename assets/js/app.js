@@ -58,7 +58,7 @@ eventFromJSON = function () {
 		const tickets = showlist[i]["tickets"];
 		const facebook = showlist[i]["facebook"];
 
-		const eventName = $("<span class='event-name'>").html(venue);
+		const eventName = '<span class="event-name">' + venue + '</span>'
 		const eventLocation = $("<span class='event-location'>").html(location);
 		console.log(eventName)
 		const spacer = $("<span class='spacer'>").html(" - ");
@@ -78,26 +78,28 @@ eventFromJSON = function () {
 			"<a href=" + facebook + ">FB</a>"
 		);
 
+		const eventLi = $("<li class='event-li'>")
 
-		// eventLi.append(
-		// 	eventStart,
-		// 	// "<span class='spacer'> - </span>",
-		// 	eventName,
-		// 	// "<span class='spacer'> - </span>",
-		// 	eventLocation,
-		// 	// spacer,
-		// 	eventUri,
-		// 	//
-		// 	eventFB
-		// );
+		$(eventLi).append(
+			eventStart,
+			// "<span class='spacer'> - </span>",
+			eventName,
+			// "<span class='spacer'> - </span>",
+			eventLocation,
+			// spacer,
+			eventUri,
+			//
+			eventFB
+		);
+		// console.log(".text()" + eventName)
+		// const eventLi = '<li class="event-li">' + eventStart + eventName + eventLocation + eventUri + eventFB + '</li>';
+		// console.log(eventLi, eventName, eventLocation, eventStart, eventUri, eventFB);
+		$('#event-list').append(eventLi)
 
-		const eventLi = "<li class='event-li'>" + eventStart + eventName + eventLocation + eventUri + eventFB + "</li>";
-		console.log(eventLi, eventName, eventLocation, eventStart, eventUri, eventFB)
-		$('.events-list').append(eventLi)
-	}
-};
-
+	};
+}
 $(document).ready(function () {
+	eventFromJSON();
 	let filtered = "false";
 
 	// $('.albums-only').on('click', function(){
@@ -189,7 +191,7 @@ $(document).ready(function () {
 		$("#progress").css("width", (current_time / length) * 100 + "%");
 	};
 
-	eventFromJSON();
+
 	//   eventSearch();
 
 	// $(window).scroll(function() {

@@ -12,6 +12,11 @@
 @import "partials/shows";
 @import "partials/store";
 
+html {
+	max-width: 100%;
+	width: 100%;
+}
+
 body {
 	background: $off-black-transparent;
 	background-repeat: repeat;

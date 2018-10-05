@@ -82,37 +82,58 @@
 @media only screen and (max-width: 600px) {
   #shows {
     font-size: 1.5vh;
-  }
+    margin-bottom: 0;
 
-  #events-div {
-    padding: 12px;
-    max-width: 100%;
-    width: 100%;
+    h2 {
+      font-size: 3rem;
+    }
 
-    .wrapper {
+    #events-div {
+      padding: 0;
+      height: 50vh;
       max-width: 100%;
       width: 100%;
-    }
 
-    span {
-      padding: 0 2px;
-    }
 
-    .event-start {
-      font-size: 1.6rem;
-    }
+      margin-top: 1rem;
 
-    .event-location {
-      font-size: 1.6rem;
-    }
+      .wrapper {
+        max-width: 100%;
+        width: 100%;
+      }
 
-    .spacer {
-      padding: 0 1px;
-    }
+      span {
+        padding: 8px;
+      }
 
-    .event-li {
-      max-width: 100%;
-      width: 100%;
+      .event-start {
+        font-size: 1rem;
+      }
+
+      .event-location {
+        font-size: 1.2rem;
+      }
+
+      #event-list {
+        width: 80%;
+        margin: 0 auto;
+        overflow-wrap: normal;
+        // display: flex;
+        // flex-direction: column;
+        // flex-wrap: wrap;
+        // justify-content: center;
+      }
+
+      .spacer {
+        padding: 0 1px;
+      }
+
+      .event-li {
+        max-width: 100%;
+        width: 100%;
+
+      }
     }
   }
+
 }
