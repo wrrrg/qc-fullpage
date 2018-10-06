@@ -63,13 +63,14 @@
     font-size: 3rem;
   }
 
-  .event-uri {
+  .event-uri,
+  .event-fb {
     a {
-      color: #cc9c00;
+      color: #fff7b0e8;
     }
 
     a:visited {
-      color: hsl(29, 89%, 44%);
+      color: #d3cb5e;
     }
 
     a:hover {
