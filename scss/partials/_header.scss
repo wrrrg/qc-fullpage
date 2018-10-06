@@ -1,54 +1,74 @@
 /* Fixed header and footer.
 	* --------------------------------------- */
 #header {
-	position: fixed;
-	height: 50px;
-	display: block;
-	width: 93%;
-	max-width: 93%;
-	margin: 0;
-	background: rgba(0, 0, 0, 0);
-	z-index: 1;
-	text-align: center;
-	color: $off-white;
-	padding-top: 1.5rem;
+  position: fixed;
+  height: 50px;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  background: rgba(0, 0, 0, 0);
+  z-index: 1;
+  text-align: center;
+  color: $off-white;
+  padding-top: 1.5rem;
 
-	h1 {
-		font-size: 2rem;
-	}
+  h1 {
+    font-size: 2rem;
+  }
 
-	// .logo {
-	//   font-size: 3rem;
-	//   text-align: left;
-	//   float: left;
-	//   margin-left: 50px;
-	// }
+  // .logo {
+  //   font-size: 3rem;
+  //   text-align: left;
+  //   float: left;
+  //   margin-left: 50px;
+  // }
 }
 
 #header {
-	.menu {
-		text-align: left;
-		text-decoration: none;
+  .menu {
+    text-align: left;
+    text-decoration: none;
 
+    max-width: 80%;
+    margin-left: 5%;
 
-		max-width: 80%;
+    ul {
+      color: $off-white;
+      text-decoration: none;
+    }
 
-		ul {
-			color: $off-white;
-			text-decoration: none;
-		}
+    li {
+      display: inline;
+      text-decoration: none;
+      color: $off-white;
+      padding: 1rem;
+      padding-right: 0;
 
-		li {
-			display: inline;
-			text-decoration: none;
-			color: $off-white;
-			padding: 1rem;
-			padding-right: 0;
+      a {
+        color: $off-white;
+        text-decoration: none;
+      }
+    }
+  }
+}
 
-			a {
-				color: $off-white;
-				text-decoration: none;
-			}
-		}
-	}
+@media only screen and (max-width: 700px) {
+  #header {
+    max-width: 75%;
+    margin-left: 12.5%;
+    .menu {
+      text-align: center;
+      margin: 0 auto;
+      width: 100%;
+
+      padding: 0;
+      a {
+        color: red;
+      }
+      li {
+        padding: 1rem;
+      }
+    }
+  }
 }

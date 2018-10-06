@@ -1,33 +1,33 @@
 #footer {
-	position: fixed;
-	height: 60px;
-	display: block;
-	width: 93%;
-	background: rgba(0, 0, 0, 0);
-	z-index: 1;
-	text-align: center;
-	color: red;
-	padding: 20px 0 0 0;
-	bottom: 0px;
+  position: fixed;
+  height: 60px;
+  display: block;
+  width: 100%;
+  background: rgba(0, 0, 0, 0);
+  z-index: 1;
+  text-align: center;
+  color: red;
+  padding: 20px 0 0 0;
+  bottom: 0px;
 }
 
 .social-icons {
-	// float: right;
+  // float: right;
 
-	text-align: center;
-	font-size: 1rem;
+  text-align: center;
+  font-size: 1rem;
 
-	li {
-		display: inline;
-		// margin: 15px;
-		padding: 1rem;
-	}
+  li {
+    display: inline;
+    // margin: 15px;
+    padding: 1rem;
+  }
 
-	a {
-		color: $off-white;
-	}
+  a {
+    color: $off-white;
+  }
 
-	a:visited {
-		color: $off-gray
-	}
+  a:visited {
+    color: $off-gray;
+  }
 }
