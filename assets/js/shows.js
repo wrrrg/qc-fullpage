@@ -38,23 +38,25 @@ const showlist = [
     venue: "Goldthwaite Music Festival",
     city: "Goldthwaite, TX",
     freeShow: true,
-    tickets: "https://www.facebook.com/events/2077288542583514/",
-    facebook: "https://www.facebook.com/events/2077288542583514/"
+    tickets: "https://www.facebook.com/events/2077288542583514",
+    facebook: "https://www.facebook.com/events/2077288542583514"
   },
   {
     date: "11/3",
     venue: "Club Dada",
     city: "Dallas, TX",
     freeShow: false,
-    tickets: null,
-    facebook: "https://www.facebook.com/events/671733909867360/"
+    tickets:
+      "https://www.eventbrite.com/e/mo-lowda-the-humble-quiet-company-club-dada-tickets-46988752624",
+    facebook: "https://www.facebook.com/events/671733909867360"
   },
   {
     date: "11/16",
     venue: "White Oak Music Hall",
     city: "Houston, TX",
     freeShow: false,
-    tickets: null,
-    facebook: "https://www.facebook.com/events/1385426358257206/"
+    tickets:
+      "https://wl.seetickets.us/event/The-Wheel-Workers-Quiet-Company-A-Sundae-Drive/368022?afflky=WhiteOakMusicHall",
+    facebook: "https://www.facebook.com/events/1385426358257206"
   }
 ];
