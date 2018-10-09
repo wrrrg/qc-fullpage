@@ -27,3 +27,15 @@
         line-height: 2rem;
     }
 }
+
+@media only screen and (max-width: 750px) {
+    .album-title {
+        text-align: center;
+        padding-top: 5rem;
+        padding-bottom: 0;
+    }
+
+    .song-title {
+        text-align: center;
+    }
+}

@@ -2,16 +2,15 @@
 const songkick = "io09K9l3ebJxmxe2";
 const skQuietCompanyId = "582111";
 
-eventSearch = function() {
+eventSearch = function () {
   $("#events-div").empty();
   $.ajax({
-    url:
-      "https://api.songkick.com/api/3.0/artists/" +
+    url: "https://api.songkick.com/api/3.0/artists/" +
       skQuietCompanyId +
       "/calendar.json?apikey=" +
       songkick,
     method: "GET"
-  }).then(function(res) {
+  }).then(function (res) {
     console.log(res);
     const result = res["resultsPage"]["results"]["event"];
     console.log(result);
@@ -48,7 +47,7 @@ eventSearch = function() {
   });
 };
 
-eventFromJSON = function() {
+eventFromJSON = function () {
   $("#event-list").empty();
   for (i = 0; i < showlist.length; i++) {
     console.log(showlist[i]);
@@ -68,7 +67,7 @@ eventFromJSON = function() {
     let eventUri;
     if (showlist[i]["freeShow"]) {
       eventUri = $("<span class='event-uri'>").html(
-        "<a href=" + facebook + ">Free Show</a>"
+        "<a href=" + facebook + ">Free</a>"
       );
     } else {
       eventUri = $("<span class='event-uri'>").html(
@@ -77,15 +76,19 @@ eventFromJSON = function() {
     }
     const eventFB = $("<span class='event-fb'>").html(
       "<a href=" +
-        facebook +
-        " target='_blank'><i class='fab fa-facebook-f'></i></a>"
+      facebook +
+      " target='_blank'><i class='fab fa-facebook-f'></i></a>"
     );
 
     if (showlist[i]["tickets"] === null) {
-      $(eventUri).css({ display: "none" });
+      $(eventUri).css({
+        display: "none"
+      });
     }
     if (showlist[i]["facebook"] === null) {
-      $(eventFB).css({ display: "none" });
+      $(eventFB).css({
+        display: "none"
+      });
     }
 
     const eventLi = $("<li class='event-li'>");
@@ -107,7 +110,7 @@ eventFromJSON = function() {
     $("#event-list").append(eventLi);
   }
 };
-$(document).ready(function() {
+$(document).ready(function () {
   eventFromJSON();
   let filtered = "false";
 
@@ -152,8 +155,7 @@ $(document).ready(function() {
     dots: true,
     arrows: true,
     adaptiveHeight: true,
-    responsive: [
-      {
+    responsive: [{
         breakpoint: 1440,
         settings: {
           slidesToShow: 2,
@@ -185,7 +187,7 @@ $(document).ready(function() {
 
   var audio = $("audio")[0];
 
-  $("#play-pause").on("click", function() {
+  $("#play-pause").on("click", function () {
     if (audio.paused) {
       audio.play();
       $("#play-pause").text("Pause");
@@ -197,7 +199,7 @@ $(document).ready(function() {
 
   var length = audio.duration;
   var current_time = audio.currentTime;
-  audio.onTimeUpdate = function() {
+  audio.onTimeUpdate = function () {
     $("#progress").css("width", (current_time / length) * 100 + "%");
   };
 

@@ -19,6 +19,7 @@
   // }
 
   .presents {
+
     h1,
     h2,
     h3 {
@@ -34,6 +35,7 @@
     h2 {
       font-size: 9rem;
     }
+
     width: 100%;
     height: 50%;
     align-content: center;
@@ -42,6 +44,7 @@
     flex-direction: column;
     text-align: left;
   }
+
   .performs {
     font-size: 4rem;
     width: 35%;
@@ -53,12 +56,39 @@
   .track-title {
     margin-left: 1rem;
   }
+
+  .landing-list {
+    color: $off-white-transparent;
+    width: 30%;
+
+    text-align: center;
+
+    li {
+      display: inline;
+      font-size: 3rem;
+      padding: 1.6rem;
+
+      a {
+        cursor: pointer;
+        color: $off-white-transparent;
+      }
+
+      a:hover {
+        color: $off-white;
+      }
+    }
+  }
 }
+
 @media only screen and (max-width: 750px) {
   #landing {
     .presents {
+      height: 30%;
+
       h1 {
         font-size: 7rem;
+        padding: 0;
+        margin: 0;
       }
 
       h2 {
@@ -73,21 +103,115 @@
       justify-content: space-around;
       flex-direction: column;
       text-align: left;
+
       h1,
       h2,
       h3 {
         margin: 0 auto;
         text-align: left;
       }
-    }
-    .performs {
-      font-size: 3rem;
-      width: 100%;
-      text-align: left;
+
+      h1 {
+        padding: 0;
+        margin: 0;
+      }
+
+      .landing-list {
+
+        width: 100%;
+        color: $off-white-transparent;
+
+        text-align: center;
+
+        li {
+          display: inline;
+          font-size: 3rem;
+          padding: 1.6rem;
+        }
+      }
+
+      .performs {
+        font-size: 3rem;
+        width: 100%;
+        text-align: left;
+        margin-left: 0;
+        padding: .05rem;
+      }
+
+      .track-title {
+        margin-left: 0;
+        padding: 0;
+      }
     }
 
-    .track-title {
-      margin-left: 1rem;
+
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  #landing {
+    .presents {
+      height: 30%;
+
+      h1 {
+        font-size: 5rem;
+        padding: 0;
+        margin: 0;
+      }
+
+      h2 {
+        font-size: 5rem;
+      }
+
+      h3 {
+        font-size: 2rem;
+      }
+
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      text-align: left;
+
+      h1,
+      h2,
+      h3 {
+        margin: 0 auto;
+        text-align: left;
+      }
+
+      h1 {
+        padding: 0;
+        margin: 0;
+      }
+
+      .landing-list {
+
+        width: 100%;
+        color: $off-white-transparent;
+
+        text-align: center;
+
+        li {
+          display: inline;
+          font-size: 3rem;
+          padding: 1.6rem;
+        }
+      }
+
+      .performs {
+        font-size: 2rem;
+        width: 100%;
+        text-align: left;
+        margin-left: 0;
+        padding: .05rem;
+      }
+
+      .track-title {
+        margin-left: 0;
+        padding: 0;
+      }
     }
+
+
   }
 }

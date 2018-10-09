@@ -57,17 +57,30 @@
   #header {
     max-width: 75%;
     margin-left: 12.5%;
+
     .menu {
       text-align: center;
       margin: 0 auto;
       width: 100%;
 
       padding: 0;
+
       a {
         color: red;
       }
+
       li {
         padding: 1rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  #header {
+    .menu {
+      li {
+        padding: .5rem;
       }
     }
   }
