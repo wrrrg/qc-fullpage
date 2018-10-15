@@ -1,75 +1,140 @@
 #contact {
-    background: url("../images/daddy.jpeg");
-    background-size: cover;
+  background: url("../images/daddy.jpeg");
+  background-size: cover;
+  h2 {
+    font-size: 5rem;
+    margin: 2rem;
+  }
+  .button {
+    font-size: 3rem;
+  }
 
-    .contact-wrapper {
-        width: 80%;
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-        margin: 0 auto;
-        align-content: center;
+  .contact-wrapper {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 0 auto;
+    align-content: center;
+  }
+  .background {
+    background: $off-black-transparent;
+    height: 100%;
+    width: 100%;
+  }
 
+  .mc-field-group {
+    input {
+      width: 40%;
+      padding: 1rem;
+      margin: 1rem;
+      border: none;
+      background: rgba(209, 200, 200, 0.2);
     }
-
-    #mc_embed_signup {
-        margin: 0 auto;
-        text-align: center;
-        width: 80%;
-        padding: 1rem;
+    input:hover {
+      background: $off-white;
     }
+  }
 
+  .contact-emails {
+    display: block;
 
-
-    #mc-embedded-subscribe {
-        background: none;
-        border: none;
-        cursor: pointer;
-        color: $off-white;
-        font-family: "BebasNeue";
-        margin: .5rem;
+    a {
+      color: $off-white;
+      text-decoration: none;
+      padding: 5px;
+      line-height: 3rem;
+      font-size: 2rem;
     }
+    a:hover {
+      color: $off-gray;
+    }
+  }
+
+  #mc_embed_signup {
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    padding: 1rem;
+  }
+
+  #mc-embedded-subscribe {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: $off-white;
+    font-family: "BebasNeue";
+    margin: 0.5rem;
+  }
 }
 
 @media only screen and (max-width: 750px) {
-    #contact {
-        h2 {
-            font-size: 3rem;
-        }
-
-        .contact-wrapper {
-            width: 100%;
-            display: flex;
-            justify-content: space-around;
-            flex-direction: column;
-            margin: 0 auto;
-            align-content: center;
-
-        }
-
-        #mc_embed_signup {
-            margin: 0 auto;
-            text-align: center;
-            width: 80%;
-            padding: 1rem;
-        }
-
-        #mce-EMAIL {
-            width: 80%;
-            padding: .5rem;
-            border: none;
-            background: rgba(200, 200, 200, 0.9)
-        }
-
-
-        #mc-embedded-subscribe {
-            background: none;
-            border: none;
-            cursor: pointer;
-            color: $off-white;
-            font-family: "BebasNeue";
-            margin: .5rem;
-            font-size: 2rem;
-        }
+  #contact {
+    h2 {
+      font-size: 3rem;
     }
+    .mc-field-group {
+      input {
+        width: 40%;
+        padding: 1rem;
+        margin: 0.2rem;
+        border: none;
+        background: rgba(209, 200, 200, 0.2);
+      }
+      input:hover {
+        background: $off-white;
+      }
+      input:active {
+        background: $off-white;
+      }
+    }
+
+    .contact-wrapper {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      margin: 0 auto;
+      align-content: center;
+    }
+
+    #mc_embed_signup {
+      margin: 0 auto;
+      text-align: center;
+      width: 80%;
+      padding: 1rem;
+    }
+
+    #mce-EMAIL {
+      width: 80%;
+      padding: 0.5rem;
+      border: none;
+      background: rgba(200, 200, 200, 0.9);
+    }
+
+    #mc-embedded-subscribe {
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: $off-white;
+      font-family: "BebasNeue";
+      margin: 0.5rem;
+      font-size: 2rem;
+    }
+    .contact-emails {
+      display: block;
+      margin-top: 3rem;
+
+      a {
+        color: $off-white;
+        text-decoration: none;
+        padding: 5px;
+        line-height: 3rem;
+        font-size: 2rem;
+      }
+      a:hover {
+        color: $off-gray;
+      }
+    }
+  }
 }
