@@ -1,5 +1,5 @@
 #landing {
-  background: url("../images/allThings2.png");
+  background: url("../images/alonetogether.png");
 
   background-size: cover;
   background-position: center;
@@ -37,18 +37,18 @@
     }
 
     width: 100%;
-    height: 50%;
-    align-content: center;
+    height: 40%;
+    align-content: right;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     flex-direction: column;
-    text-align: left;
+    text-align: right;
   }
 
   .performs {
     font-size: 4rem;
-    width: 35%;
-    text-align: left;
+    width: 96%;
+    text-align: right;
     padding: 1rem;
     margin-left: 1.3rem;
   }
@@ -59,9 +59,9 @@
 
   .landing-list {
     color: $off-white-transparent;
-    width: 30%;
+    width: 100%;
 
-    text-align: center;
+    text-align: right;
 
     li {
       display: inline;
@@ -102,13 +102,13 @@
       display: flex;
       justify-content: space-around;
       flex-direction: column;
-      text-align: left;
+      text-align: right;
 
       h1,
       h2,
       h3 {
         margin: 0 auto;
-        text-align: left;
+        text-align: right;
       }
 
       h1 {
@@ -132,8 +132,8 @@
 
       .performs {
         font-size: 3rem;
-        width: 100%;
-        text-align: left;
+        width: 98%;
+        text-align: right;
         margin-left: 0;
         padding: .05rem;
       }
@@ -141,6 +141,7 @@
       .track-title {
         margin-left: 0;
         padding: 0;
+        text-align: right;
       }
     }
 
@@ -152,6 +153,7 @@
   #landing {
     .presents {
       height: 30%;
+      width: 98%;
 
       h1 {
         font-size: 5rem;
@@ -165,18 +167,20 @@
 
       h3 {
         font-size: 2rem;
+        text-align: right;
       }
 
       display: flex;
       justify-content: space-around;
       flex-direction: column;
-      text-align: left;
+      text-align: right;
 
       h1,
       h2,
       h3 {
         margin: 0 auto;
-        text-align: left;
+        padding-right: 1rem;
+        text-align: right;
       }
 
       h1 {
@@ -200,8 +204,8 @@
 
       .performs {
         font-size: 2rem;
-        width: 100%;
-        text-align: left;
+        width: 98%;
+        text-align: right;
         margin-left: 0;
         padding: .05rem;
       }
