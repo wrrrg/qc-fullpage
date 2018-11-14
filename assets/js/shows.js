@@ -71,7 +71,7 @@ const showlist = [
     city: "Houston, TX",
     freeShow: false,
     tickets: "https://quietcompany.bigcartel.com/product/houston-holiday-house-show-on-dec-8th",
-    facebook: ""
+    facebook: "https://www.facebook.com/events/961812380671229/"
   },
   {
     date: "12/14",
@@ -79,7 +79,7 @@ const showlist = [
     city: "Dallas, TX",
     freeShow: false,
     tickets: "https://quietcompany.bigcartel.com/product/dallas-holiday-house-show-on-dec-15th",
-    facebook: ""
+    facebook: "https://www.facebook.com/events/369823503788789/"
   },
   {
     date: "12/15",
@@ -87,6 +87,6 @@ const showlist = [
     city: "Austin, TX",
     freeShow: false,
     tickets: "https://quietcompany.bigcartel.com/product/austin-holiday-house-show-on-dec-15th",
-    facebook: ""
+    facebook: "https://www.facebook.com/events/1899098620212970/"
   },
 ];
