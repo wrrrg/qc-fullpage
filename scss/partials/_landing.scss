@@ -1,6 +1,7 @@
 #landing {
-  background: url("../images/alonetogether.png");
-
+  font-family: "Playfair Display", serif;
+  background: url("../images/christmas.jpg");
+  text-shadow: 1px 1px 1px rgba(20, 20, 20, 1);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -20,6 +21,44 @@
 
   .presents {
 
+
+    .christmas-album-title {
+      font-family: "Playfair Display", serif;
+      font-style: italic;
+      font-size: 9rem;
+    }
+
+    .house-shows {
+      text-shadow: 1px 1px 1px rgba(20, 20, 20, 1);
+      margin-top: 1rem;
+
+      .house-shows-list {
+
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 1rem;
+        font-size: 3rem;
+
+        display: flex;
+        justify-content: space-evenly;
+
+        .house-show-li {
+          .house-show-anchor {
+            text-decoration: none;
+          }
+
+          .house-show-anchor:hover {
+            color: white;
+            cursor: pointer;
+          }
+
+          .house-show-anchor:visited {
+            color: $off-white;
+          }
+        }
+      }
+    }
+
     h1,
     h2,
     h3 {
@@ -28,40 +67,46 @@
     }
 
     h1 {
-      font-size: 9rem;
+      font-size: 5rem;
       font-weight: 300;
     }
 
     h2 {
-      font-size: 9rem;
+      font-size: 3rem;
     }
 
+    margin-top: 1rem;
     width: 100%;
-    height: 40%;
-    align-content: right;
+    height: 80%;
+    // align-content: center;
     display: flex;
-    justify-content: right;
+    // justify-content: center;
     flex-direction: column;
-    text-align: right;
+    text-align: center;
   }
 
   .performs {
     font-size: 4rem;
     width: 96%;
-    text-align: right;
+    text-align: center;
     padding: 1rem;
     margin-left: 1.3rem;
   }
 
   .track-title {
+
     margin-left: 1rem;
+
   }
+
 
   .landing-list {
     color: $off-white-transparent;
     width: 100%;
 
-    text-align: right;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 0;
 
     li {
       display: inline;
@@ -82,33 +127,43 @@
 
 @media only screen and (max-width: 750px) {
   #landing {
+    height: 100vh;
+
     .presents {
-      height: 30%;
+
+
 
       h1 {
-        font-size: 7rem;
-        padding: 0;
-        margin: 0;
+        font-size: 1.8rem;
+
+        text-align: left;
       }
 
       h2 {
-        font-size: 7rem;
+        font-size: 5.5rem;
       }
 
       h3 {
         font-size: 3rem;
       }
 
+      .band-name-h1 {
+        font-size: 1.5rem;
+
+
+        text-align: center;
+      }
+
       display: flex;
-      justify-content: space-around;
+      justify-content: flex-start;
       flex-direction: column;
       text-align: right;
 
       h1,
       h2,
       h3 {
-        margin: 0 auto;
-        text-align: right;
+        margin: 0;
+        text-align: center;
       }
 
       h1 {
@@ -120,28 +175,76 @@
 
         width: 100%;
         color: $off-white-transparent;
-
+        margin-top: 5%;
         text-align: center;
 
         li {
           display: inline;
           font-size: 3rem;
-          padding: 1.6rem;
+          padding: 1.2rem;
+          padding-top: 0;
         }
       }
 
       .performs {
-        font-size: 3rem;
+        font-size: 1.3rem;
         width: 98%;
-        text-align: right;
+        text-align: center;
         margin-left: 0;
-        padding: .05rem;
+        padding: 0;
+        padding-top: 0.5rem;
       }
 
       .track-title {
         margin-left: 0;
+        margin-top: 1.5rem;
         padding: 0;
-        text-align: right;
+        text-align: center;
+        font-size: 3.2rem;
+
+      }
+
+      .christmas-album {
+        font-size: .9rem;
+        margin: 0;
+        // margin-bottom: -5%;
+      }
+
+      .christmas-album-title {
+
+        margin-top: 2%;
+
+        font-size: 6rem;
+      }
+
+      .more-details {
+        text-align: center;
+      }
+
+      .house-shows {
+        text-shadow: 1px 1px 1px rgba(20, 20, 20, 1);
+
+
+        .house-shows-list {
+          width: 80%;
+          margin-left: 10%;
+          margin-top: 3rem;
+          font-size: 2rem;
+
+          display: flex;
+          justify-content: space-evenly;
+
+          .house-show-li {
+            text-aligN: center;
+
+            .house-show-anchor {}
+
+            .house-show-anchor:hover {
+              color: white;
+              cursor: pointer;
+            }
+          }
+        }
       }
     }
 
@@ -152,35 +255,74 @@
 @media only screen and (max-width: 350px) {
   #landing {
     .presents {
-      height: 30%;
+      display: flex;
+      justify-content: flex-start;
+
+      .band-name-h1 {
+        font-size: 2rem;
+        margin: 0;
+        margin-top: -1rem;
+
+      }
+
+      margin: 0;
+
+      .christmas-album {}
+
+      .christmas-album-title {
+        font-size: 5rem;
+      }
+
+
+      .house-shows {
+        text-shadow: 1px 1px 1px rgba(20, 20, 20, 1);
+
+
+        .house-shows-list {
+          width: 85%;
+
+          margin-top: 1rem;
+          font-size: 1.5rem;
+
+
+
+          .house-show-li {
+            text-aligN: center;
+
+            .house-show-anchor {}
+
+            .house-show-anchor:hover {
+              color: white;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+
       width: 98%;
 
       h1 {
-        font-size: 5rem;
+        font-size: 1rem;
         padding: 0;
         margin: 0;
       }
 
       h2 {
-        font-size: 5rem;
+        font-size: 1rem;
       }
 
       h3 {
-        font-size: 2rem;
-        text-align: right;
+        font-size: 1rem;
+        text-align: left;
       }
 
-      display: flex;
-      justify-content: space-around;
-      flex-direction: column;
-      text-align: right;
 
       h1,
       h2,
       h3 {
         margin: 0 auto;
         padding-right: 1rem;
-        text-align: right;
+        text-align: center;
       }
 
       h1 {
@@ -203,18 +345,27 @@
       }
 
       .performs {
-        font-size: 2rem;
+        font-size: .5rem;
         width: 98%;
-        text-align: right;
+        height: 2rem;
+        text-align: center;
         margin-left: 0;
-        padding: .05rem;
+        padding: .5rem;
       }
 
       .track-title {
         margin-left: 0;
+        margin: 0;
+        margin-top: -.5rem;
         padding: 0;
+        font-size: 3rem;
+        text-align: center;
+
       }
+
+
     }
+
 
 
   }

@@ -1,10 +1,12 @@
 #contact {
   background: url("../images/daddy.jpeg");
   background-size: cover;
+
   h2 {
     font-size: 5rem;
     margin: 2rem;
   }
+
   .button {
     font-size: 3rem;
   }
@@ -17,6 +19,7 @@
     margin: 0 auto;
     align-content: center;
   }
+
   .background {
     background: $off-black-transparent;
     height: 100%;
@@ -31,6 +34,7 @@
       border: none;
       background: rgba(209, 200, 200, 0.2);
     }
+
     input:hover {
       background: $off-white;
     }
@@ -46,6 +50,7 @@
       line-height: 3rem;
       font-size: 2rem;
     }
+
     a:hover {
       color: $off-gray;
     }
@@ -66,6 +71,15 @@
     font-family: "BebasNeue";
     margin: 0.5rem;
   }
+
+  .photo-credits {
+    font-size: .5rem;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 20rem;
+    width: 20%;
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 750px) {
@@ -73,6 +87,7 @@
     h2 {
       font-size: 3rem;
     }
+
     .mc-field-group {
       input {
         width: 40%;
@@ -81,9 +96,11 @@
         border: none;
         background: rgba(209, 200, 200, 0.2);
       }
+
       input:hover {
         background: $off-white;
       }
+
       input:active {
         background: $off-white;
       }
@@ -121,6 +138,7 @@
       margin: 0.5rem;
       font-size: 2rem;
     }
+
     .contact-emails {
       display: block;
       margin-top: 3rem;
@@ -132,9 +150,22 @@
         line-height: 3rem;
         font-size: 2rem;
       }
+
       a:hover {
         color: $off-gray;
       }
     }
+
+    .photo-credits {
+      font-size: .5rem;
+      margin: 0 auto;
+      padding: 0;
+      margin-top: 2rem;
+      width: 20%;
+      text-align: center;
+    }
   }
+
+
+
 }

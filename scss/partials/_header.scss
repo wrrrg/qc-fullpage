@@ -79,6 +79,10 @@
 @media only screen and (max-width: 350px) {
   #header {
     .menu {
+      margin: 0;
+      padding: 0;
+      padding-left: 12.5%;
+
       li {
         padding: .5rem;
       }
