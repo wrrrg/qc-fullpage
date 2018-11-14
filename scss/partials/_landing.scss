@@ -30,7 +30,8 @@
     .christmas-album-title {
       font-family: "Playfair Display", serif;
       font-style: italic;
-      font-size: 1.5rem;
+      font-size: 6.5rem;
+      margin-bottom: 1rem;
     }
 
     .christmas-album-img {
@@ -39,7 +40,7 @@
     }
 
     .band-name-h1 {
-      font-size: 4rem;
+      font-size: 2rem;
     }
 
 
@@ -47,6 +48,7 @@
     .house-shows {
       text-shadow: 1px 1px 1px rgba(20, 20, 20, 1);
       margin-top: 1rem;
+      margin-bottom: 0;
 
       .house-shows-list {
 
@@ -92,7 +94,7 @@
     }
 
     .track-title {
-      font-size: 3rem;
+      font-size: 4rem;
       margin-left: 1rem;
 
     }
@@ -111,7 +113,7 @@
     width: 96%;
     text-align: center;
     padding: 1rem;
-    margin-left: 2.8rem;
+    margin-left: .8rem;
   }
 
 
@@ -147,7 +149,8 @@
 
 
     .presents {
-      margin-top: 2rem;
+
+      height: 70%;
 
 
       h1 {
@@ -165,7 +168,7 @@
       }
 
       .band-name-h1 {
-        font-size: 1.5rem;
+        font-size: 3.5rem;
 
 
         text-align: center;
@@ -217,14 +220,14 @@
         margin-top: 1.5rem;
         padding: 0;
         text-align: center;
-        font-size: 3.2rem;
+        font-size: 2.8rem;
 
       }
 
       .christmas-album {
         font-size: .9rem;
         margin: 1rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
         // margin-bottom: -5%;
       }
 
@@ -237,8 +240,8 @@
       }
 
       .christmas-album-img {
-        width: 20rem;
-        height: 20rem;
+        width: 15rem;
+        height: 15rem;
         // max-width: 60%;
         // max-height: 60%;
         margin: 0 auto;
@@ -261,7 +264,7 @@
           width: 80%;
           margin-left: 10%;
 
-          font-size: 2rem;
+          font-size: 1.5rem;
 
           display: flex;
           justify-content: space-evenly;
@@ -287,6 +290,7 @@
 @media only screen and (max-width: 350px) {
   #landing {
     .presents {
+      height: 90%;
       display: flex;
       justify-content: flex-start;
 
