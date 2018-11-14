@@ -224,6 +224,7 @@
       .christmas-album {
         font-size: .9rem;
         margin: 1rem;
+        margin-bottom: 2rem;
         // margin-bottom: -5%;
       }
 
@@ -236,8 +237,10 @@
       }
 
       .christmas-album-img {
-        max-width: 60%;
-        max-height: 60%;
+        width: 20rem;
+        height: 20rem;
+        // max-width: 60%;
+        // max-height: 60%;
         margin: 0 auto;
 
         padding: 0;
