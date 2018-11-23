@@ -277,6 +277,10 @@
             .house-show-anchor:hover {
               color: white;
               cursor: pointer;
+
+              .house-show-anchor:visited {
+                color: gray;
+              }
             }
           }
         }
@@ -332,6 +336,10 @@
             .house-show-anchor:hover {
               color: white;
               cursor: pointer;
+            }
+
+            .house-show-anchor:visited {
+              color: gray;
             }
           }
         }
