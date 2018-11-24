@@ -41,30 +41,30 @@ const showlist = [
   //   tickets: "https://www.facebook.com/events/2077288542583514",
   //   facebook: "https://www.facebook.com/events/2077288542583514"
   // },
-  {
-    date: "11/3",
-    venue: "Club Dada",
-    city: "Dallas, TX",
-    freeShow: false,
-    tickets: "https://www.eventbrite.com/e/mo-lowda-the-humble-quiet-company-club-dada-tickets-46988752624",
-    facebook: "https://www.facebook.com/events/671733909867360"
-  },
-  {
-    date: "11/16",
-    venue: "White Oak Music Hall",
-    city: "Houston, TX",
-    freeShow: false,
-    tickets: "https://wl.seetickets.us/event/The-Wheel-Workers-Quiet-Company-A-Sundae-Drive/368022?afflky=WhiteOakMusicHall",
-    facebook: "https://www.facebook.com/events/1385426358257206"
-  },
-  {
-    date: "11/18",
-    venue: "Southern Heights Brewery",
-    city: "Austin, TX",
-    freeShow: true,
-    tickets: "",
-    facebook: ""
-  },
+  // {
+  //   date: "11/3",
+  //   venue: "Club Dada",
+  //   city: "Dallas, TX",
+  //   freeShow: false,
+  //   tickets: "https://www.eventbrite.com/e/mo-lowda-the-humble-quiet-company-club-dada-tickets-46988752624",
+  //   facebook: "https://www.facebook.com/events/671733909867360"
+  // },
+  // {
+  //   date: "11/16",
+  //   venue: "White Oak Music Hall",
+  //   city: "Houston, TX",
+  //   freeShow: false,
+  //   tickets: "https://wl.seetickets.us/event/The-Wheel-Workers-Quiet-Company-A-Sundae-Drive/368022?afflky=WhiteOakMusicHall",
+  //   facebook: "https://www.facebook.com/events/1385426358257206"
+  // },
+  // {
+  //   date: "11/18",
+  //   venue: "Southern Heights Brewery",
+  //   city: "Austin, TX",
+  //   freeShow: true,
+  //   tickets: "",
+  //   facebook: ""
+  // },
   {
     date: "12/8",
     venue: "Christmas House Show!",
