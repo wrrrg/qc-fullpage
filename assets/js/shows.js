@@ -94,7 +94,7 @@ const showlist = [
     venue: "Corners and Shapes Release:  Mohawk",
     city: "Austin, TX",
     freeShow: false,
-    tickets: "https://quietcompany.bigcartel.com/product/austin-holiday-house-show-on-dec-15th",
-    facebook: "https://www.facebook.com/events/1899098620212970/"
+    tickets: "https://www.eventbrite.com/e/quiet-company-mohawk-tickets-53174022934?aff=efbeventtix&fbclid=IwAR0jQl6vvfeZGIIp1ka-g-wv22Q8lMs7FzMmrwtbxZeCTC4EL9TJz7F4PLs",
+    facebook: "https://www.facebook.com/events/750427295323503/"
   },
 ];
