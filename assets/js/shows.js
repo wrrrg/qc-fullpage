@@ -65,25 +65,33 @@ const showlist = [
   //   tickets: "",
   //   facebook: ""
   // },
+  // {
+  //   date: "12/8",
+  //   venue: "Christmas House Show!",
+  //   city: "Houston, TX",
+  //   freeShow: false,
+  //   tickets: "https://quietcompany.bigcartel.com/product/houston-holiday-house-show-on-dec-8th",
+  //   facebook: "https://www.facebook.com/events/961812380671229/"
+  // },
+  // {
+  //   date: "12/14",
+  //   venue: "Christmas House Show!",
+  //   city: "Dallas, TX",
+  //   freeShow: false,
+  //   tickets: "https://quietcompany.bigcartel.com/product/dallas-holiday-house-show-on-dec-15th",
+  //   facebook: "https://www.facebook.com/events/369823503788789/"
+  // },
+  // {
+  //   date: "12/15",
+  //   venue: "Christmas House Show!",
+  //   city: "Austin, TX",
+  //   freeShow: false,
+  //   tickets: "https://quietcompany.bigcartel.com/product/austin-holiday-house-show-on-dec-15th",
+  //   facebook: "https://www.facebook.com/events/1899098620212970/"
+  // },
   {
-    date: "12/8",
-    venue: "Christmas House Show!",
-    city: "Houston, TX",
-    freeShow: false,
-    tickets: "https://quietcompany.bigcartel.com/product/houston-holiday-house-show-on-dec-8th",
-    facebook: "https://www.facebook.com/events/961812380671229/"
-  },
-  {
-    date: "12/14",
-    venue: "Christmas House Show!",
-    city: "Dallas, TX",
-    freeShow: false,
-    tickets: "https://quietcompany.bigcartel.com/product/dallas-holiday-house-show-on-dec-15th",
-    facebook: "https://www.facebook.com/events/369823503788789/"
-  },
-  {
-    date: "12/15",
-    venue: "Christmas House Show!",
+    date: "2/1",
+    venue: "Corners and Shapes Release:  Mohawk",
     city: "Austin, TX",
     freeShow: false,
     tickets: "https://quietcompany.bigcartel.com/product/austin-holiday-house-show-on-dec-15th",
