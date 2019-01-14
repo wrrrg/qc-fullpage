@@ -3,6 +3,17 @@
 
   background-size: cover;
 
+  .full-store-anchor {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    color: $off-white;
+    text-decoration: none;
+    font-size: 3.5rem;
+
+  }
+
+
   .filter-list {
     margin: 0 auto;
     text-align: center;
@@ -11,6 +22,7 @@
       display: inline;
       margin: 0 auto;
       padding: 0 2rem;
+
       span {
         cursor: pointer;
         margin: 1rem;
@@ -18,11 +30,19 @@
     }
   }
 
+
+
+
   .external-store-links {
+
+
+
+
     text-align: center;
 
     li {
       display: inline;
+
       a {
         color: $off-white;
         text-decoration: none;
@@ -43,11 +63,17 @@
     margin-bottom: 1rem;
   }
 
+
+
   .wrapper {
+
+
     padding-top: 75px;
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.7);
+
+
   }
 
   .store-carousel {
@@ -66,15 +92,18 @@
       padding: 1rem;
       margin: 1rem;
     }
+
     .store-item {
       width: 30%;
       height: 50vh;
       text-align: center;
+
       h3 {
         font-size: 3rem;
         text-align: center;
         margin-bottom: 10px;
       }
+
       img {
         width: 60%;
         height: 60%;
@@ -82,6 +111,7 @@
         padding: 2rem;
       }
     }
+
     // img {
     //   height: 450px;
     //   width: 100%;
@@ -104,6 +134,7 @@
         display: inline;
         margin: 0 auto;
         padding: 0 2rem;
+
         span {
           cursor: pointer;
           margin: 1rem;
@@ -116,6 +147,7 @@
 
       li {
         display: inline;
+
         a {
           color: $off-white;
           text-decoration: none;
@@ -159,15 +191,18 @@
         padding: 1rem;
         margin: 1rem;
       }
+
       .store-item {
         width: 30%;
         height: 50vh;
         text-align: center;
+
         h3 {
           font-size: 2rem;
           text-align: center;
           margin-bottom: 10px;
         }
+
         img {
           width: 60%;
           height: 60%;
@@ -175,6 +210,7 @@
           padding: 2rem;
         }
       }
+
       // img {
       //   height: 450px;
       //   width: 100%;

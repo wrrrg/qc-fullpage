@@ -81,6 +81,26 @@
   }
 }
 
+@media only screen and (max-width: 1024px) {
+  #landing {
+    .presents {
+      .landing-list {
+
+        width: 100%;
+        color: $off-white-transparent;
+
+        text-align: center;
+
+        li {
+          display: inline;
+          font-size: 3rem;
+          padding: 1.2rem;
+        }
+      }
+    }
+  }
+}
+
 @media only screen and (max-width: 750px) {
   #landing {
     .presents {
@@ -120,19 +140,7 @@
         margin: 0;
       }
 
-      .landing-list {
 
-        width: 100%;
-        color: $off-white-transparent;
-
-        text-align: center;
-
-        li {
-          display: inline;
-          font-size: 3rem;
-          padding: 1.6rem;
-        }
-      }
 
       .performs {
         font-size: 3rem;
@@ -156,7 +164,7 @@
   #landing {
     .presents {
       margin-left: 0rem;
-      margin-top: -24rem;
+      margin-top: -12rem;
       height: 30%;
 
       h1 {
@@ -199,7 +207,7 @@
 
         li {
           display: inline;
-          font-size: 3rem;
+          font-size: 2rem;
           padding: 1.6rem;
         }
       }

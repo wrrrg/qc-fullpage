@@ -91,10 +91,18 @@ const showlist = [
   // },
   {
     date: "2/1",
-    venue: "Corners and Shapes Release:  Mohawk",
+    venue: "EP Release Show: Mohawk",
     city: "Austin, TX",
     freeShow: false,
     tickets: "https://www.eventbrite.com/e/quiet-company-mohawk-tickets-53174022934?aff=efbeventtix&fbclid=IwAR0jQl6vvfeZGIIp1ka-g-wv22Q8lMs7FzMmrwtbxZeCTC4EL9TJz7F4PLs",
     facebook: "https://www.facebook.com/events/750427295323503/"
+  },
+  {
+    date: "2/15",
+    venue: "MASS (Main at South Side)",
+    city: "Fort Worth, TX",
+    freeShow: false,
+    tickets: "https://www.prekindle.com/promo/id/97934110362130701",
+    facebook: "https://www.facebook.com/events/399419117266817/"
   },
 ];

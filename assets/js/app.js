@@ -161,7 +161,7 @@ $(document).ready(function () {
           slidesToShow: 2,
           slidesToScroll: 2,
           infinite: true,
-          dots: true
+          dots: false
         }
       },
       {
@@ -170,14 +170,15 @@ $(document).ready(function () {
           slidesToShow: 2,
           slidesToScroll: 2,
           infinite: true,
-          dots: true
+          dots: false
         }
       },
       {
         breakpoint: 700,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToScroll: 1,
+          dots: false
         }
       }
     ]
