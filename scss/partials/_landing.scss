@@ -1,70 +1,34 @@
 #landing {
-  background: url("../images/aloha.png");
+  background: url("../images/corners.jpeg");
 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   backdrop-filter: blur(6px) contrast(0.8);
   padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 
-  // .presents {
-  // 	width: 100%;
-  // 	height: auto;
-  // 	margin-top: -100px;
-  // 	margin-left: 5%;
-  // 	h3 {
-  // 		font-size: 2.8rem;
-  // 		padding: 0 15px;
-  // 	}
-  // }
+  .spacer {
+    height: 74%;
+    width: 100%;
 
-  .presents {
-    margin-left: 20rem;
-
-    h1,
-    h2,
-    h3 {
-      color: $off-white;
-      padding: 10px;
-    }
-
-    h1 {
-      font-size: 9rem;
-      font-weight: 300;
-    }
-
-    h2 {
-      font-size: 9rem;
-    }
-
-    width: 60%;
-    height: 50%;
-    align-content: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: left;
+    flex: 1;
   }
 
-  .performs {
-    font-size: 4rem;
-    width: 35%;
-    text-align: left;
-    padding: 1rem;
-    margin-left: 1.3rem;
-  }
-
-  .track-title {
-    margin-left: 1rem;
-  }
 
   .landing-list {
     color: $off-white-transparent;
-    width: 30%;
+    display: block;
+    width: 100%;
+    flex: 1;
+    margin-bottom: 4rem;
 
     text-align: center;
 
     li {
+
       display: inline;
       font-size: 3rem;
       padding: 1.6rem;
@@ -79,518 +43,595 @@
       }
     }
   }
-}
 
-@media only screen and (max-width: 1024px) {
-  #landing {
-    .presents {
-      .landing-list {
+  .presents {
 
-        width: 100%;
-        color: $off-white-transparent;
+    display: flex;
+    flex: 3;
 
-        text-align: center;
+    width: 100%;
+    margin: 0 auto;
 
-        li {
-          display: inline;
-          font-size: 3rem;
-          padding: 1.2rem;
-        }
-      }
-    }
-  }
-}
+    text-align: center;
+    // height: auto;
+    // margin-top: -100px;
+    // margin-left: 5%;
 
-@media only screen and (max-width: 750px) {
-  #landing {
-    .presents {
-      margin-left: 0rem;
-      margin-top: -24rem;
-      height: 30%;
-      text-align: center;
+    .band-name {
+      padding: 0;
+      height: 20%;
+      width: 50%;
+      text-align: right;
 
-      h1 {
-        font-size: 7rem;
-        padding: 0;
-        margin: 0;
-      }
-
-      h2 {
-        font-size: 7rem;
-      }
-
-      h3 {
-        font-size: 3rem;
-      }
-
-      display: flex;
-      justify-content: space-around;
-      flex-direction: column;
-      text-align: center;
-
-      h1,
-      h2,
-      h3 {
-        margin: 0 auto;
-        text-align: left;
-      }
-
-      h1 {
-        padding: 0;
-        margin: 0;
-      }
-
-
-
-      .performs {
-        font-size: 3rem;
-        width: 100%;
-        text-align: left;
-        margin-left: 0;
-        padding: .05rem;
-      }
-
-      .track-title {
-        margin-left: 0;
-        padding: 0;
-      }
+      flex: 3;
+      font-size: 5rem;
     }
 
-
-  }
-}
-
-@media only screen and (max-width: 350px) {
-  #landing {
-    .presents {
-      margin-left: 0rem;
-      margin-top: -12rem;
-      height: 30%;
-
-      h1 {
-        font-size: 5rem;
-        padding: 0;
-        margin: 0;
-      }
-
-      h2 {
-        font-size: 5rem;
-      }
-
-      h3 {
-        font-size: 2rem;
-      }
-
-      display: flex;
-      justify-content: space-around;
-      flex-direction: column;
+    .album-title {
+      padding: 0;
+      margin-left: 1rem;
+      width: 48%;
       text-align: left;
+      font-size: 5rem;
+      padding: 0 15px;
+      color: #C52241;
+    }
+  }
 
-      h1,
-      h2,
-      h3 {
-        margin: 0 auto;
-        text-align: left;
+  //   .presents {
+  //     margin-left: 20rem;
+
+  //     h1,
+  //     h2,
+  //     h3 {
+  //       color: $off-white;
+  //       padding: 10px;
+  //     }
+
+  //     h1 {
+  //       font-size: 9rem;
+  //       font-weight: 300;
+  //     }
+
+  //     h2 {
+  //       font-size: 9rem;
+  //     }
+
+  //     width: 60%;
+  //     height: 50%;
+  //     align-content: center;
+  //     display: flex;
+  //     justify-content: center;
+  //     flex-direction: column;
+  //     text-align: left;
+  //   }
+
+  //   .performs {
+  //     font-size: 4rem;
+  //     width: 35%;
+  //     text-align: left;
+  //     padding: 1rem;
+  //     margin-left: 1.3rem;
+  //   }
+
+  //   .track-title {
+  //     margin-left: 1rem;
+  //   }
+
+
+
+  // }
+
+  @media only screen and (max-width: 1024px) {
+    #landing {
+      .presents {
+        .landing-list {
+
+          width: 100%;
+          color: $off-white-transparent;
+
+          text-align: center;
+
+          li {
+            display: inline;
+            font-size: 3rem;
+            padding: 1.2rem;
+          }
+        }
       }
+    }
+  }
 
-      h1 {
-        padding: 0;
-        margin: 0;
-      }
-
-      .landing-list {
-
-        width: 100%;
-        color: $off-white-transparent;
-
+  @media only screen and (max-width: 750px) {
+    #landing {
+      .presents {
+        margin-left: 0rem;
+        margin-top: -24rem;
+        height: 30%;
         text-align: center;
 
-        li {
-          display: inline;
-          font-size: 2rem;
-          padding: 1.6rem;
+        h1 {
+          font-size: 7rem;
+          padding: 0;
+          margin: 0;
+        }
+
+        h2 {
+          font-size: 7rem;
+        }
+
+        h3 {
+          font-size: 3rem;
+        }
+
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+
+        h1,
+        h2,
+        h3 {
+          margin: 0 auto;
+          text-align: left;
+        }
+
+        h1 {
+          padding: 0;
+          margin: 0;
+        }
+
+
+
+        .performs {
+          font-size: 3rem;
+          width: 100%;
+          text-align: left;
+          margin-left: 0;
+          padding: .05rem;
+        }
+
+        .track-title {
+          margin-left: 0;
+          padding: 0;
         }
       }
 
-      .performs {
-        font-size: 2rem;
-        width: 100%;
-        text-align: left;
-        margin-left: 0;
-        padding: .05rem;
-      }
 
-      .track-title {
-        margin-left: 0;
-        padding: 0;
-      }
     }
-
-
   }
+
+  @media only screen and (max-width: 350px) {
+    #landing {
+      .presents {
+        margin-left: 0rem;
+        margin-top: -12rem;
+        height: 30%;
+
+        h1 {
+          font-size: 5rem;
+          padding: 0;
+          margin: 0;
+        }
+
+        h2 {
+          font-size: 5rem;
+        }
+
+        h3 {
+          font-size: 2rem;
+        }
+
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: left;
+
+        h1,
+        h2,
+        h3 {
+          margin: 0 auto;
+          text-align: left;
+        }
+
+        h1 {
+          padding: 0;
+          margin: 0;
+        }
+
+        .landing-list {
+
+          width: 100%;
+          color: $off-white-transparent;
+
+          text-align: center;
+
+          li {
+            display: inline;
+            font-size: 2rem;
+            padding: 1.6rem;
+          }
+        }
+
+        .performs {
+          font-size: 2rem;
+          width: 100%;
+          text-align: left;
+          margin-left: 0;
+          padding: .05rem;
+        }
+
+        .track-title {
+          margin-left: 0;
+          padding: 0;
+        }
+      }
+
+
+    }
+  }
+
+
+  // #landing {
+  //   // font-family: "Playfair Display", serif;
+  //   background: url("../images/ALOHA.png");
+  //   text-shadow: 1px 1px 1px rgba(20, 20, 20, 1);
+  //   background-size: cover;
+  //   background-position: center;
+  //   background-repeat: no-repeat;
+  //   backdrop-filter: blur(6px) contrast(0.8);
+  //   padding: 2rem;
+
+  //   // .presents {
+  //   // 	width: 100%;
+  //   // 	height: auto;
+  //   // 	margin-top: -100px;
+  //   // 	margin-left: 5%;
+  //   // 	h3 {
+  //   // 		font-size: 2.8rem;
+  //   // 		padding: 0 15px;
+  //   // 	}
+  //   // }
+
+  //   .presents {
+
+
+  //     h1,
+  //     h2,
+  //     h3 {
+  //       color: $off-white;
+  //       padding: 10px;
+  //     }
+
+  //     h1 {
+  //       font-size: 5rem;
+  //       font-weight: 300;
+  //     }
+
+  //     h2 {
+  //       font-size: 3rem;
+  //     }
+
+  //     .track-title {
+  //       font-size: 2.8rem;
+  //       margin-left: 1rem;
+
+  //     }
+
+  //     width: 100%;
+  //     height: 90%;
+  //     // align-content: center;
+  //     display: flex;
+  //     // justify-content: center;
+  //     flex-direction: column;
+  //     text-align: center;
+  //   }
+
+  //   .performs {
+  //     font-size: 1.5rem;
+  //     width: 96%;
+  //     text-align: center;
+
+  //     margin-left: .8rem;
+  //   }
+
+
+
+
+  //   .landing-list {
+  //     color: $off-white-transparent;
+  //     width: 100%;
+
+  //     text-align: center;
+  //     margin-top: 2%;
+  //     margin-bottom: 0;
+
+  //     li {
+  //       display: inline;
+  //       font-size: 3rem;
+  //       padding: 1.6rem;
+
+  //       a {
+  //         cursor: pointer;
+  //         color: $off-white-transparent;
+  //       }
+
+  //       a:hover {
+  //         color: $off-white;
+  //       }
+  //     }
+  //   }
+  // }
+
+  // @media only screen and (max-width: 750px) {
+  //   #landing {
+
+
+  //     .presents {
+
+  //       height: 70%;
+
+
+  //       h1 {
+  //         font-size: 1.8rem;
+
+  //         text-align: left;
+  //       }
+
+  //       h2 {
+  //         font-size: 5.5rem;
+  //       }
+
+  //       h3 {
+  //         font-size: 3rem;
+  //       }
+
+  //       .band-name-h1 {
+  //         font-size: 3.5rem;
+
+
+  //         text-align: center;
+  //       }
+
+  //       display: flex;
+  //       justify-content: flex-start;
+  //       flex-direction: column;
+  //       text-align: center;
+
+  //       h1,
+  //       h2,
+  //       h3 {
+  //         margin: 0;
+  //         text-align: center;
+  //       }
+
+  //       h1 {
+  //         padding: 0;
+  //         margin: 0;
+  //       }
+
+  //       .landing-list {
+
+  //         width: 100%;
+  //         color: $off-white-transparent;
+  //         margin-top: 5%;
+  //         text-align: center;
+
+  //         li {
+  //           display: inline;
+  //           font-size: 3rem;
+  //           padding: 1.2rem;
+  //           padding-top: 0;
+  //         }
+  //       }
+
+  //       .performs {
+  //         font-size: 1.3rem;
+  //         width: 98%;
+  //         text-align: center;
+  //         margin-left: 0;
+  //         padding: 0;
+  //         padding-top: 0.5rem;
+  //       }
+
+  //       .track-title {
+  //         margin-left: 0;
+  //         margin-top: 1.5rem;
+  //         padding: 0;
+  //         text-align: center;
+  //         font-size: 2.8rem;
+
+  //       }
+
+  //       .christmas-album {
+  //         font-size: .9rem;
+  //         margin: 1rem;
+  //         margin-bottom: 1rem;
+  //         // margin-bottom: -5%;
+  //       }
+
+  //       .christmas-album-title {
+
+  //         margin-top: -2rem;
+
+  //         font-size: 2rem;
+
+  //       }
+
+  //       .christmas-album-img {
+  //         width: 15rem;
+  //         height: 15rem;
+  //         // max-width: 60%;
+  //         // max-height: 60%;
+  //         margin: 0 auto;
+
+  //         padding: 0;
+
+  //       }
+
+  //       .more-details {
+  //         text-align: center;
+  //       }
+
+  //       .house-shows {
+  //         text-shadow: 1px 1px 1px rgba(20, 20, 20, 1);
+  //         display: flex;
+  //         justify-content: center;
+  //         flex-direction: column;
+
+  //         .house-shows-list {
+  //           width: 80%;
+  //           margin-left: 10%;
+
+  //           font-size: 1.5rem;
+
+  //           display: flex;
+  //           justify-content: space-evenly;
+
+  //           .house-show-li {
+  //             text-aligN: center;
+
+  //             .house-show-anchor {}
+
+  //             .house-show-anchor:hover {
+  //               color: white;
+  //               cursor: pointer;
+
+  //               .house-show-anchor:visited {
+  //                 color: gray;
+  //               }
+  //             }
+  //           }
+  //         }
+  //       }
+  //     }
+
+
+  //   }
+  // }
+
+  // @media only screen and (max-width: 350px) {
+  //   #landing {
+  //     .presents {
+  //       height: 90%;
+  //       display: flex;
+  //       justify-content: flex-start;
+
+  //       .band-name-h1 {
+  //         font-size: 3rem;
+  //         margin: 0;
+  //         margin-top: 3rem;
+
+  //       }
+
+  //       margin: 0;
+
+  //       .christmas-album {
+  //         margin: .5rem;
+  //       }
+
+  //       .christmas-album-title {
+  //         font-size: 1.2rem;
+  //       }
+
+
+  //       .house-shows {
+  //         text-shadow: 1px 1px 1px rgba(20, 20, 20, 1);
+
+
+  //         .house-shows-list {
+  //           width: 85%;
+
+  //           margin-top: 1rem;
+  //           font-size: 2rem;
+
+
+
+  //           .house-show-li {
+  //             text-aligN: center;
+
+  //             .house-show-anchor {}
+
+  //             .house-show-anchor:hover {
+  //               color: white;
+  //               cursor: pointer;
+  //             }
+
+  //             .house-show-anchor:visited {
+  //               color: gray;
+  //             }
+  //           }
+  //         }
+  //       }
+
+  //       width: 98%;
+
+  //       h1 {
+  //         font-size: 1rem;
+  //         padding: 0;
+  //         margin: 0;
+  //       }
+
+  //       h2 {
+  //         font-size: 1rem;
+  //       }
+
+  //       h3 {
+  //         font-size: 1rem;
+  //         text-align: left;
+  //       }
+
+
+  //       h1,
+  //       h2,
+  //       h3 {
+  //         margin: 0 auto;
+  //         padding-right: 1rem;
+  //         text-align: center;
+  //       }
+
+  //       h1 {
+  //         padding: 0;
+  //         margin: 0;
+  //       }
+
+  //       .landing-list {
+
+  //         width: 100%;
+  //         color: $off-white-transparent;
+
+  //         text-align: center;
+
+  //         li {
+  //           display: inline;
+  //           font-size: 3rem;
+  //           padding: 1.6rem;
+  //         }
+  //       }
+
+  //       .performs {
+  //         font-size: .5rem;
+  //         width: 98%;
+  //         height: 2rem;
+  //         text-align: center;
+  //         margin-left: 0;
+  //         padding: .5rem;
+  //       }
+
+  //       .track-title {
+  //         margin-left: 0;
+  //         margin: 0;
+  //         margin-top: -.5rem;
+  //         padding: 0;
+  //         font-size: 2rem;
+  //         text-align: center;
+
+  //       }
+
+
+  //     }
+
+
+
+  //   }
 }
-
-
-// #landing {
-//   // font-family: "Playfair Display", serif;
-//   background: url("../images/ALOHA.png");
-//   text-shadow: 1px 1px 1px rgba(20, 20, 20, 1);
-//   background-size: cover;
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   backdrop-filter: blur(6px) contrast(0.8);
-//   padding: 2rem;
-
-//   // .presents {
-//   // 	width: 100%;
-//   // 	height: auto;
-//   // 	margin-top: -100px;
-//   // 	margin-left: 5%;
-//   // 	h3 {
-//   // 		font-size: 2.8rem;
-//   // 		padding: 0 15px;
-//   // 	}
-//   // }
-
-//   .presents {
-
-
-//     h1,
-//     h2,
-//     h3 {
-//       color: $off-white;
-//       padding: 10px;
-//     }
-
-//     h1 {
-//       font-size: 5rem;
-//       font-weight: 300;
-//     }
-
-//     h2 {
-//       font-size: 3rem;
-//     }
-
-//     .track-title {
-//       font-size: 2.8rem;
-//       margin-left: 1rem;
-
-//     }
-
-//     width: 100%;
-//     height: 90%;
-//     // align-content: center;
-//     display: flex;
-//     // justify-content: center;
-//     flex-direction: column;
-//     text-align: center;
-//   }
-
-//   .performs {
-//     font-size: 1.5rem;
-//     width: 96%;
-//     text-align: center;
-
-//     margin-left: .8rem;
-//   }
-
-
-
-
-//   .landing-list {
-//     color: $off-white-transparent;
-//     width: 100%;
-
-//     text-align: center;
-//     margin-top: 2%;
-//     margin-bottom: 0;
-
-//     li {
-//       display: inline;
-//       font-size: 3rem;
-//       padding: 1.6rem;
-
-//       a {
-//         cursor: pointer;
-//         color: $off-white-transparent;
-//       }
-
-//       a:hover {
-//         color: $off-white;
-//       }
-//     }
-//   }
-// }
-
-// @media only screen and (max-width: 750px) {
-//   #landing {
-
-
-//     .presents {
-
-//       height: 70%;
-
-
-//       h1 {
-//         font-size: 1.8rem;
-
-//         text-align: left;
-//       }
-
-//       h2 {
-//         font-size: 5.5rem;
-//       }
-
-//       h3 {
-//         font-size: 3rem;
-//       }
-
-//       .band-name-h1 {
-//         font-size: 3.5rem;
-
-
-//         text-align: center;
-//       }
-
-//       display: flex;
-//       justify-content: flex-start;
-//       flex-direction: column;
-//       text-align: center;
-
-//       h1,
-//       h2,
-//       h3 {
-//         margin: 0;
-//         text-align: center;
-//       }
-
-//       h1 {
-//         padding: 0;
-//         margin: 0;
-//       }
-
-//       .landing-list {
-
-//         width: 100%;
-//         color: $off-white-transparent;
-//         margin-top: 5%;
-//         text-align: center;
-
-//         li {
-//           display: inline;
-//           font-size: 3rem;
-//           padding: 1.2rem;
-//           padding-top: 0;
-//         }
-//       }
-
-//       .performs {
-//         font-size: 1.3rem;
-//         width: 98%;
-//         text-align: center;
-//         margin-left: 0;
-//         padding: 0;
-//         padding-top: 0.5rem;
-//       }
-
-//       .track-title {
-//         margin-left: 0;
-//         margin-top: 1.5rem;
-//         padding: 0;
-//         text-align: center;
-//         font-size: 2.8rem;
-
-//       }
-
-//       .christmas-album {
-//         font-size: .9rem;
-//         margin: 1rem;
-//         margin-bottom: 1rem;
-//         // margin-bottom: -5%;
-//       }
-
-//       .christmas-album-title {
-
-//         margin-top: -2rem;
-
-//         font-size: 2rem;
-
-//       }
-
-//       .christmas-album-img {
-//         width: 15rem;
-//         height: 15rem;
-//         // max-width: 60%;
-//         // max-height: 60%;
-//         margin: 0 auto;
-
-//         padding: 0;
-
-//       }
-
-//       .more-details {
-//         text-align: center;
-//       }
-
-//       .house-shows {
-//         text-shadow: 1px 1px 1px rgba(20, 20, 20, 1);
-//         display: flex;
-//         justify-content: center;
-//         flex-direction: column;
-
-//         .house-shows-list {
-//           width: 80%;
-//           margin-left: 10%;
-
-//           font-size: 1.5rem;
-
-//           display: flex;
-//           justify-content: space-evenly;
-
-//           .house-show-li {
-//             text-aligN: center;
-
-//             .house-show-anchor {}
-
-//             .house-show-anchor:hover {
-//               color: white;
-//               cursor: pointer;
-
-//               .house-show-anchor:visited {
-//                 color: gray;
-//               }
-//             }
-//           }
-//         }
-//       }
-//     }
-
-
-//   }
-// }
-
-// @media only screen and (max-width: 350px) {
-//   #landing {
-//     .presents {
-//       height: 90%;
-//       display: flex;
-//       justify-content: flex-start;
-
-//       .band-name-h1 {
-//         font-size: 3rem;
-//         margin: 0;
-//         margin-top: 3rem;
-
-//       }
-
-//       margin: 0;
-
-//       .christmas-album {
-//         margin: .5rem;
-//       }
-
-//       .christmas-album-title {
-//         font-size: 1.2rem;
-//       }
-
-
-//       .house-shows {
-//         text-shadow: 1px 1px 1px rgba(20, 20, 20, 1);
-
-
-//         .house-shows-list {
-//           width: 85%;
-
-//           margin-top: 1rem;
-//           font-size: 2rem;
-
-
-
-//           .house-show-li {
-//             text-aligN: center;
-
-//             .house-show-anchor {}
-
-//             .house-show-anchor:hover {
-//               color: white;
-//               cursor: pointer;
-//             }
-
-//             .house-show-anchor:visited {
-//               color: gray;
-//             }
-//           }
-//         }
-//       }
-
-//       width: 98%;
-
-//       h1 {
-//         font-size: 1rem;
-//         padding: 0;
-//         margin: 0;
-//       }
-
-//       h2 {
-//         font-size: 1rem;
-//       }
-
-//       h3 {
-//         font-size: 1rem;
-//         text-align: left;
-//       }
-
-
-//       h1,
-//       h2,
-//       h3 {
-//         margin: 0 auto;
-//         padding-right: 1rem;
-//         text-align: center;
-//       }
-
-//       h1 {
-//         padding: 0;
-//         margin: 0;
-//       }
-
-//       .landing-list {
-
-//         width: 100%;
-//         color: $off-white-transparent;
-
-//         text-align: center;
-
-//         li {
-//           display: inline;
-//           font-size: 3rem;
-//           padding: 1.6rem;
-//         }
-//       }
-
-//       .performs {
-//         font-size: .5rem;
-//         width: 98%;
-//         height: 2rem;
-//         text-align: center;
-//         margin-left: 0;
-//         padding: .5rem;
-//       }
-
-//       .track-title {
-//         margin-left: 0;
-//         margin: 0;
-//         margin-top: -.5rem;
-//         padding: 0;
-//         font-size: 2rem;
-//         text-align: center;
-
-//       }
-
-
-//     }
-
-
-
-//   }
-// }
