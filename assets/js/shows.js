@@ -97,14 +97,60 @@ const showlist = [
   //   tickets: "https://www.eventbrite.com/e/quiet-company-mohawk-tickets-53174022934?aff=efbeventtix&fbclid=IwAR0jQl6vvfeZGIIp1ka-g-wv22Q8lMs7FzMmrwtbxZeCTC4EL9TJz7F4PLs",
   //   facebook: "https://www.facebook.com/events/750427295323503/"
   // },
+  // {
+  //   date: "2/15",
+  //   venue: "MASS (Main at South Side)",
+  //   city: "Fort Worth, TX",
+  //   freeShow: false,
+  //   tickets: "https://www.prekindle.com/promo/id/97934110362130701",
+  //   facebook: "https://www.facebook.com/events/399419117266817/"
+  // },
   {
-    date: "2/15",
-    venue: "MASS (Main at South Side)",
-    city: "Fort Worth, TX",
-    freeShow: false,
-    tickets: "https://www.prekindle.com/promo/id/97934110362130701",
-    facebook: "https://www.facebook.com/events/399419117266817/"
+    date: "3/10",
+    venue: "SXSW Unofficial - SOTO vs. ATH - Hotel Vegas",
+    city: "7:15 PM",
+    freeShow: true,
+    tickets: false,
+    facebook: false
+    // tickets: "https://www.eventbrite.com/e/cruiserweight-20-year-anniversary-mohawk-tickets-53909001274?aff=efbeventtix",
+    // facebook: "https://www.facebook.com/events/2242369892703872/"
   },
 
+  {
+    date: "3/13",
+    venue: "SXSW Unofficial - Black Fret at GDS&M",
+    city: "1:50 PM",
+    freeShow: true,
+    tickets: false,
+    facebook: false
+  },
+
+  {
+    date: "3/15",
+    venue: "SXSW Unofficial - 101X at Buffalo Billiards",
+    city: "5:00 PM",
+    freeShow: true,
+    tickets: false,
+    facebook: false
+  },
+
+  {
+    date: "3/16",
+    venue: "SXSW Official (wristband) - Pennyloafer PR at Augustine",
+    city: "11:15pm",
+    freeShow: true,
+    tickets: false,
+    facebook: false
+
+  },
+
+  {
+    date: "6/15",
+    venue: "Mohawk w/ Cruiserweight",
+    city: "Austin, TX",
+    freeShow: false,
+    tickets: "https://www.eventbrite.com/e/cruiserweight-20-year-anniversary-mohawk-tickets-53909001274?aff=efbeventtix",
+    facebook: "https://www.facebook.com/events/2242369892703872/"
+  },
 
 ];

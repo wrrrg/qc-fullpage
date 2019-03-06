@@ -74,21 +74,24 @@ eventFromJSON = function () {
         "<a href=" + tickets + " target='_blank'>Tickets</a>"
       );
     }
-    const eventFB = $("<span class='event-fb'>").html(
+    let eventFB = $("<span class='event-fb'>").html(
       "<a href=" +
       facebook +
       " target='_blank'><i class='fab fa-facebook-f'></i></a>"
     );
 
-    if (showlist[i]["tickets"] === null) {
-      $(eventUri).css({
-        display: "none"
-      });
+    if (showlist[i]["tickets"] === false) {
+      // $(eventUri).css({
+      //   display: "none"
+      // });
+      eventURI = $("<span class='event-uri'>").empty();
+
     }
-    if (showlist[i]["facebook"] === null) {
-      $(eventFB).css({
-        display: "none"
-      });
+    if (showlist[i]["facebook"] === false) {
+      // $(eventFB).css({
+      //   display: "none"
+      // });
+      eventFB = $("<span class='event-fb'>").empty();
     }
 
     const eventLi = $("<li class='event-li'>");

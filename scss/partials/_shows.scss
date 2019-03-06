@@ -21,7 +21,7 @@
     margin: 0 auto;
     padding-top: 75px;
 
-    font-size: 7rem;
+    font-size: 6vh;
     text-align: center;
     width: 100%;
   }
@@ -57,11 +57,11 @@
 
   .event-name {
     color: #feffd4;
-    font-size: 4vh;
+    font-size: 2.5vh;
   }
 
   .event-location {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .event-uri,
@@ -75,6 +75,8 @@
     }
 
     a:hover {}
+
+    font-size: 2vh;
   }
 
   .spacer {
@@ -85,10 +87,10 @@
 @media only screen and (max-width: 700px) {
   #shows {
     margin-bottom: 0;
-    font-size: 1.5rem;
+    font-size: 3vh;
 
     h2 {
-      font-size: 3rem;
+      font-size: 2vh;
     }
 
     #events-div {
@@ -109,12 +111,25 @@
         padding: 5px;
       }
 
+      .event-name {
+        color: #feffd4;
+        font-size: 1.8vh;
+      }
+
       .event-start {
         font-size: 1.8rem;
       }
 
       .event-location {
         font-size: 1.2rem;
+      }
+
+      .event-uri {
+        font-size: 1.5vh;
+      }
+
+      .event-fb {
+        font-size: 1.8vh;
       }
 
       #event-list {
@@ -174,15 +189,15 @@
       }
 
       .event-start {
-        font-size: 1.2rem;
+        font-size: 2vh;
       }
 
       .event-location {
-        font-size: 1.3rem;
+        font-size: 2vh;
       }
 
       .event-name {
-        font-size: 1.5rem;
+        font-size: 2vh;
       }
 
       #event-list {
@@ -197,7 +212,7 @@
       }
 
       .spacer {
-        padding: 0 1px;
+        padding: 0 20px;
       }
 
       .event-li {
