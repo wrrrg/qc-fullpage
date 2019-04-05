@@ -105,43 +105,61 @@ const showlist = [
   //   tickets: "https://www.prekindle.com/promo/id/97934110362130701",
   //   facebook: "https://www.facebook.com/events/399419117266817/"
   // },
+  // {
+  //   date: "3/10",
+  //   venue: "SXSW Unofficial - SOTO vs. ATH - Hotel Vegas",
+  //   city: "7:15 PM",
+  //   freeShow: true,
+  //   tickets: false,
+  //   facebook: false
+  //   // tickets: "https://www.eventbrite.com/e/cruiserweight-20-year-anniversary-mohawk-tickets-53909001274?aff=efbeventtix",
+  //   // facebook: "https://www.facebook.com/events/2242369892703872/"
+  // },
+
+  // {
+  //   date: "3/13",
+  //   venue: "SXSW Unofficial - Black Fret at GDS&M",
+  //   city: "1:50 PM",
+  //   freeShow: true,
+  //   tickets: false,
+  //   facebook: false
+  // },
+
+  // {
+  //   date: "3/15",
+  //   venue: "SXSW Unofficial - 101X at Buffalo Billiards",
+  //   city: "5:00 PM",
+  //   freeShow: true,
+  //   tickets: false,
+  //   facebook: false
+  // },
+
+  // {
+  //   date: "3/16",
+  //   venue: "SXSW Official (wristband) - Pennyloafer PR at Augustine",
+  //   city: "11:15pm",
+  //   freeShow: true,
+  //   tickets: false,
+  //   facebook: false
+
+  // },
+
   {
-    date: "3/10",
-    venue: "SXSW Unofficial - SOTO vs. ATH - Hotel Vegas",
-    city: "7:15 PM",
+    date: "4/14",
+    venue: "Unplugged at Discovery Green",
+    city: "Houston, TX",
     freeShow: true,
-    tickets: false,
-    facebook: false
-    // tickets: "https://www.eventbrite.com/e/cruiserweight-20-year-anniversary-mohawk-tickets-53909001274?aff=efbeventtix",
-    // facebook: "https://www.facebook.com/events/2242369892703872/"
+    tickets: "https://www.discoverygreen.com/1576741",
+    facebook: "https://www.facebook.com/events/1149100701924231/"
   },
-
   {
-    date: "3/13",
-    venue: "SXSW Unofficial - Black Fret at GDS&M",
-    city: "1:50 PM",
-    freeShow: true,
-    tickets: false,
-    facebook: false
-  },
-
-  {
-    date: "3/15",
-    venue: "SXSW Unofficial - 101X at Buffalo Billiards",
-    city: "5:00 PM",
-    freeShow: true,
-    tickets: false,
-    facebook: false
-  },
-
-  {
-    date: "3/16",
-    venue: "SXSW Official (wristband) - Pennyloafer PR at Augustine",
-    city: "11:15pm",
-    freeShow: true,
-    tickets: false,
-    facebook: false
-
+    date: "5/18",
+    venue: "Wildflower Arts & Music Festival",
+    city: "Richardson, TX",
+    freeShow: false,
+    tickets:
+      "https://www.etix.com/ticket/v/13188/wildflowerarts-music-festival-galatyn-urban-park",
+    facebook: "https://www.facebook.com/events/436311550164027/"
   },
 
   {
@@ -149,8 +167,8 @@ const showlist = [
     venue: "Mohawk w/ Cruiserweight",
     city: "Austin, TX",
     freeShow: false,
-    tickets: "https://www.eventbrite.com/e/cruiserweight-20-year-anniversary-mohawk-tickets-53909001274?aff=efbeventtix",
+    tickets:
+      "https://www.eventbrite.com/e/cruiserweight-20-year-anniversary-mohawk-tickets-53909001274?aff=efbeventtix",
     facebook: "https://www.facebook.com/events/2242369892703872/"
-  },
-
+  }
 ];
