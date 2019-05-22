@@ -125,6 +125,7 @@ const showlist = [
   //   facebook: false
   // },
 
+
   // {
   //   date: "3/15",
   //   venue: "SXSW Unofficial - 101X at Buffalo Billiards",
@@ -144,6 +145,45 @@ const showlist = [
 
   // },
 
+
+  // {
+  //   date: "3/15",
+  //   venue: "SXSW Unofficial - 101X at Buffalo Billiards",
+  //   city: "5:00 PM",
+  //   freeShow: true,
+  //   tickets: false,
+  //   facebook: false
+  // },
+
+  // {
+  //   date: "3/16",
+  //   venue: "SXSW Official (wristband) - Pennyloafer PR at Augustine",
+  //   city: "11:15pm",
+  //   freeShow: true,
+  //   tickets: false,
+  //   facebook: false
+
+  // },
+
+  //   {
+  //     date: "4/14",
+  //     venue: "Unplugged at Discovery Green",
+  //     city: "Houston, TX",
+  //     freeShow: true,
+  //     tickets: "https://www.discoverygreen.com/1576741",
+  //     facebook: "https://www.facebook.com/events/1149100701924231/"
+  //   },
+  //   {
+  //     date: "5/18",
+  //     venue: "Wildflower Arts & Music Festival",
+  //     city: "Richardson, TX",
+  //     freeShow: false,
+  //     tickets:
+  //       "https://www.etix.com/ticket/v/13188/wildflowerarts-music-festival-galatyn-urban-park",
+  //     facebook: "https://www.facebook.com/events/436311550164027/"
+  //   },
+  // >>>>>>> 96bdcb0da8d7df40d0a0d22775c16bc352ae8268
+
   {
     date: "6/15",
     venue: "Mohawk w/ Cruiserweight",
@@ -151,6 +191,7 @@ const showlist = [
     freeShow: false,
     tickets: "https://www.eventbrite.com/e/cruiserweight-20-year-anniversary-mohawk-tickets-53909001274?aff=efbeventtix",
     facebook: "https://www.facebook.com/events/2242369892703872/"
+
   },
   {
     date: "7/20",
