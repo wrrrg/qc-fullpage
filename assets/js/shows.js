@@ -187,7 +187,7 @@ const showlist = [
     city: "Dallas, TX",
     freeShow: false,
     tickets: "https://www.eventbrite.com/e/quiet-company-club-dada-tickets-60824266017",
-    // facebook: "https://www.facebook.com/events/2242369892703872/"
+    facebook: "https://www.facebook.com/events/668192896919551/?ti=ia"
   },
   // {
   //   date: "9/6",
