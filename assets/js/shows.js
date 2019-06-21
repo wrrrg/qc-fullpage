@@ -164,15 +164,15 @@ const showlist = [
 
   // },
 
-  {
-    date: "6/15",
-    venue: "Mohawk w/ Cruiserweight",
-    city: "Austin, TX",
-    freeShow: false,
-    tickets: "https://www.eventbrite.com/e/cruiserweight-20-year-anniversary-mohawk-tickets-53909001274?aff=efbeventtix",
-    facebook: "https://www.facebook.com/events/2242369892703872/"
+  // {
+  //   date: "6/15",
+  //   venue: "Mohawk w/ Cruiserweight",
+  //   city: "Austin, TX",
+  //   freeShow: false,
+  //   tickets: "https://www.eventbrite.com/e/cruiserweight-20-year-anniversary-mohawk-tickets-53909001274?aff=efbeventtix",
+  //   facebook: "https://www.facebook.com/events/2242369892703872/"
 
-  },
+  // },
   {
     date: "7/20",
     venue: "The Blue Album @ Empire Garage",
@@ -181,5 +181,21 @@ const showlist = [
     tickets: "http://bit.ly/WeezerBlue_July20",
     facebook: "https://www.facebook.com/events/2242369892703872/"
   },
+  {
+    date: "8/3",
+    venue: "Club Dada",
+    city: "Dallas, TX",
+    freeShow: false,
+    tickets: "https://www.eventbrite.com/e/quiet-company-club-dada-tickets-60824266017",
+    // facebook: "https://www.facebook.com/events/2242369892703872/"
+  },
+  // {
+  //   date: "9/6",
+  //   venue: "Mohawk",
+  //   city: "Austin, TX",
+  //   freeShow: false,
+  //   tickets: "https://www.eventbrite.com/e/quiet-company-club-dada-tickets-60824266017",
+  //   // facebook: "https://www.facebook.com/events/2242369892703872/"
+  // },
 
 ];
