@@ -1,5 +1,12 @@
 #landing {
-  background: url("../images/blue_album.png");
+
+  .landing-tickets {
+    color: $off-white;
+    text-decoration: none;
+    hover: gray;
+  }
+
+  background: url("../images/qc_blue_low.jpg");
 
   background-size: cover;
   background-position: center;
@@ -45,38 +52,65 @@
   }
 
   .presents {
-
-    display: flex;
-    flex: 3;
-
     width: 100%;
-    margin: 0 auto;
-
-    text-align: center;
-    // height: auto;
-    // margin-top: -100px;
-    // margin-left: 5%;
+    text-align: right;
 
     .band-name {
-      padding: 0;
-      height: 20%;
-      width: 50%;
-      text-align: right;
+      font-size: 6rem;
+    }
 
-      flex: 3;
-      font-size: 5rem;
+    .performs {
+      font-size: 2rem;
+      margin-bottom: .8rem;
     }
 
     .album-title {
-      padding: 0;
-      margin-left: 1rem;
-      width: 48%;
-      text-align: left;
-      font-size: 5rem;
-      padding: 0 15px;
-      color: #C52241;
+      font-size: 3rem;
     }
+
+    .show-date {
+      font-size: 4rem;
+      margin-top: 1rem;
+    }
+
+
   }
+
+  // .presents {
+
+  //   display: flex;
+  //   flex: 2;
+
+  //   width: 100%;
+  //   margin: 0 auto;
+
+  //   text-align: center;
+  //   // height: auto;
+  //   // margin-top: -100px;
+  //   // margin-left: 5%;
+
+  //   .band-name {
+  //     padding: 0;
+  //     height: 20%;
+  //     // width: 50%;
+  //     width: 100%;
+  //     text-align: center;
+
+  //     flex: 5;
+  //     font-size: 5rem;
+  //   }
+
+  //   .album-title {
+  //     padding: 0;
+  //     margin-left: 1rem;
+  //     width: 100%;
+  //     text-align: center;
+  //     font-size: 5rem;
+  //     padding: 0 15px;
+  //     color: white;
+  //     flex: 3;
+  //   }
+  // }
 
   //   .presents {
   //     margin-left: 20rem;
@@ -143,7 +177,7 @@
 
 @media only screen and (max-width: 750px) {
   #landing {
-    background: url("../images/blue_album.png");
+    background: url("../images/qc_blue_high.jpg");
 
     background-size: cover;
     background-position: center;
@@ -189,38 +223,63 @@
       }
     }
 
+    // .presents {
+
+    //   display: flex;
+    //   flex: 3;
+
+    //   width: 100%;
+    //   margin: 0 auto;
+
+    //   text-align: center;
+    //   // height: auto;
+    //   // margin-top: -100px;
+    //   // margin-left: 5%;
+
+    //   .band-name {
+    //     padding: 0;
+    //     height: 80%;
+    //     width: 50%;
+    //     text-align: center;
+
+    //     flex: 3;
+    //     font-size: 4.6rem;
+    //   }
+
+    //   .album-title {
+    //     padding: 0;
+    //     margin-left: 1rem;
+    //     width: 100%;
+    //     text-align: center;
+    //     font-size: 2.2rem;
+    //     padding: 0;
+
+    //   }
+    // }
     .presents {
-
-      display: flex;
-      flex: 3;
-
       width: 100%;
-      margin: 0 auto;
-
       text-align: center;
-      // height: auto;
-      // margin-top: -100px;
-      // margin-left: 5%;
 
       .band-name {
-        padding: 0;
-        height: 80%;
-        width: 50%;
-        text-align: center;
+        font-size: 6rem;
+      }
 
-        flex: 3;
-        font-size: 4.6rem;
+      .performs {
+        font-size: 2rem;
+
       }
 
       .album-title {
-        padding: 0;
-        margin-left: 1rem;
-        width: 48%;
-        text-align: center;
-        font-size: 2.2rem;
-        padding: 0;
-        color: #C52241;
+        margin-top: -4rem;
+        font-size: 4rem;
       }
+
+      .show-date {
+        font-size: 3rem;
+
+      }
+
+
     }
 
   }
@@ -306,98 +365,97 @@
 
   @media only screen and (max-width: 350px) {
     #landing {
-      .presents {
-        margin-left: 0rem;
-        margin-top: 0rem;
-        height: 30%;
+      // .presents {
+      //   margin-left: 0rem;
+      //   margin-top: 0rem;
+      //   height: 30%;
 
-        h1 {
-          font-size: 5rem;
-          padding: 0;
-          margin: 0;
-        }
+      //   h1 {
+      //     font-size: 5rem;
+      //     padding: 0;
+      //     margin: 0;
+      //   }
 
-        h2 {
-          font-size: 5rem;
-        }
+      //   h2 {
+      //     font-size: 5rem;
+      //   }
 
-        h3 {
-          font-size: 2rem;
-        }
+      //   h3 {
+      //     font-size: 2rem;
+      //   }
 
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-        // text-align: left;
+      //   display: flex;
+      //   justify-content: space-around;
+      //   flex-direction: column;
+      //   // text-align: left;
 
-        h1,
-        h2,
-        h3 {
-          margin: 0 auto;
-          text-align: left;
-        }
+      //   h1,
+      //   h2,
+      //   h3 {
+      //     margin: 0 auto;
+      //     text-align: left;
+      //   }
 
-        h1 {
-          padding: 0;
-          margin: 0;
-        }
+      //   h1 {
+      //     padding: 0;
+      //     margin: 0;
+      //   }
 
-        // .spacer {
-        //   height: 85%;
-        //   width: 50%;
+      //   // .spacer {
+      //   //   height: 85%;
+      //   //   width: 50%;
 
-        //   flex: 1;
-        // }
+      //   //   flex: 1;
+      //   // }
 
-        .landing-list {
+      //   .landing-list {
 
-          width: 100%;
-          color: $off-white-transparent;
+      //     width: 100%;
+      //     color: $off-white-transparent;
 
-          text-align: center;
-          margin-top: .5rem;
+      //     text-align: center;
+      //     margin-top: .5rem;
 
-          li {
-            display: inline;
-            font-size: 2rem;
-            padding: 1rem;
-            margin-top: 0;
-          }
-        }
+      //     li {
+      //       display: inline;
+      //       font-size: 2rem;
+      //       padding: 1rem;
+      //       margin-top: 0;
+      //     }
+      //   }
 
-        // .performs {
-        //   font-size: 2rem;
-        //   width: 100%;
-        //   text-align: left;
-        //   margin-left: 0;
-        //   padding: .05rem;
-        // }
+      //   // .performs {
+      //   //   font-size: 2rem;
+      //   //   width: 100%;
+      //   //   text-align: left;
+      //   //   margin-left: 0;
+      //   //   padding: .05rem;
+      //   // }
 
-        // .track-title {
-        //   margin-left: 0;
-        //   padding: 0;
-        // }
+      //   // .track-title {
+      //   //   margin-left: 0;
+      //   //   padding: 0;
+      //   // }
 
 
-        .band-name {
-          padding: 0;
-          height: 60%;
-          width: 100%;
-          text-align: center;
+      //   // .band-name {
+      //   //   padding: 0;
+      //   //   height: 60%;
+      //   //   width: 100%;
+      //   //   text-align: center;
 
-          flex: 4;
-          font-size: 5rem;
-        }
+      //   //   flex: 4;
+      //   //   font-size: 5rem;
+      //   // }
 
-        .album-title {
-          margin-left: 0rem;
-          width: 100%;
-          text-align: center;
-          font-size: 2rem;
-          padding: 0;
-          color: #C52241;
-        }
-      }
+      //   // .album-title {
+      //   //   margin-left: 0rem;
+      //   //   width: 100%;
+      //   //   text-align: center;
+      //   //   font-size: 2rem;
+      //   //   padding: 0;
+      //   // }
+      // }
 
 
     }
