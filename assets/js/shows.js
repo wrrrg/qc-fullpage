@@ -144,7 +144,6 @@ const showlist = [
 
   // },
 
-
   // {
   //   date: "3/15",
   //   venue: "SXSW Unofficial - 101X at Buffalo Billiards",
@@ -183,40 +182,39 @@ const showlist = [
   //   },
   // >>>>>>> 96bdcb0da8d7df40d0a0d22775c16bc352ae8268
 
-  {
-    date: "6/15",
-    venue: "Mohawk w/ Cruiserweight",
-    city: "Austin, TX",
-    freeShow: false,
-    tickets: "https://www.eventbrite.com/e/cruiserweight-20-year-anniversary-mohawk-tickets-53909001274?aff=efbeventtix",
-    facebook: "https://www.facebook.com/events/2242369892703872/"
-
-  },
-
-
-  {
-    date: "7/20",
-    venue: "The Blue Album @ Empire Garage",
-    city: "Austin, TX",
-    freeShow: false,
-    tickets: "http://bit.ly/WeezerBlue_July20",
-    facebook: "https://www.facebook.com/events/2242369892703872/"
-  },
-  {
-    date: "8/3",
-    venue: "Club Dada",
-    city: "Dallas, TX",
-    freeShow: false,
-    tickets: "https://www.eventbrite.com/e/quiet-company-club-dada-tickets-60824266017",
-    facebook: "https://www.facebook.com/events/668192896919551/?ti=ia"
-  },
   // {
-  //   date: "9/6",
-  //   venue: "Mohawk",
+  //   date: "6/15",
+  //   venue: "Mohawk w/ Cruiserweight",
   //   city: "Austin, TX",
   //   freeShow: false,
-  //   tickets: "https://www.eventbrite.com/e/quiet-company-club-dada-tickets-60824266017",
-  //   // facebook: "https://www.facebook.com/events/2242369892703872/"
+  //   tickets: "https://www.eventbrite.com/e/cruiserweight-20-year-anniversary-mohawk-tickets-53909001274?aff=efbeventtix",
+  //   facebook: "https://www.facebook.com/events/2242369892703872/"
+
   // },
 
+  // {
+  //   date: "7/20",
+  //   venue: "The Blue Album @ Empire Garage",
+  //   city: "Austin, TX",
+  //   freeShow: false,
+  //   tickets: "http://bit.ly/WeezerBlue_July20",
+  //   facebook: "https://www.facebook.com/events/2242369892703872/"
+  // },
+  // {
+  //   date: "8/3",
+  //   venue: "Club Dada",
+  //   city: "Dallas, TX",
+  //   freeShow: false,
+  //   tickets: "https://www.eventbrite.com/e/quiet-company-club-dada-tickets-60824266017",
+  //   facebook: "https://www.facebook.com/events/668192896919551/?ti=ia"
+  // },
+  {
+    date: "9/6",
+    venue: "Mohawk",
+    city: "Austin, TX",
+    freeShow: false,
+    tickets:
+      "https://www.eventbrite.com/e/quiet-company-club-dada-tickets-60824266017",
+    facebook: "https://www.facebook.com/events/928157710859248/"
+  }
 ];
