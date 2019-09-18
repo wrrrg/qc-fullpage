@@ -183,15 +183,15 @@ const showlist = [
   //   },
   // >>>>>>> 96bdcb0da8d7df40d0a0d22775c16bc352ae8268
 
-  {
-    date: "6/15",
-    venue: "Mohawk w/ Cruiserweight",
-    city: "Austin, TX",
-    freeShow: false,
-    tickets: "https://www.eventbrite.com/e/cruiserweight-20-year-anniversary-mohawk-tickets-53909001274?aff=efbeventtix",
-    facebook: "https://www.facebook.com/events/2242369892703872/"
+  // {
+  //   date: "6/15",
+  //   venue: "Mohawk w/ Cruiserweight",
+  //   city: "Austin, TX",
+  //   freeShow: false,
+  //   tickets: "https://www.eventbrite.com/e/cruiserweight-20-year-anniversary-mohawk-tickets-53909001274?aff=efbeventtix",
+  //   facebook: "https://www.facebook.com/events/2242369892703872/"
 
-  },
+  // },
 
 
   {
