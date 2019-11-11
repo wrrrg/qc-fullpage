@@ -1,13 +1,12 @@
 #landing {
-
   .landing-tickets {
-    color: $off-white;
+    color: hsl(0, 100%, 71%);
     text-decoration: none;
     hover: gray;
   }
 
-  background: url("../images/qc_blue_low.jpg");
-
+  background: url("../images/bathroom_desktop.png");
+  color: hsl(0, 100%, 71%);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -24,9 +23,8 @@
   //   flex: 1;
   // }
 
-
   .landing-list {
-    color: $off-white-transparent;
+    color: $off-red;
     display: block;
     width: 100%;
     flex: 1;
@@ -35,14 +33,13 @@
     text-align: center;
 
     li {
-
       display: inline;
       font-size: 3rem;
       padding: 1.6rem;
 
       a {
         cursor: pointer;
-        color: $off-white-transparent;
+        color: $off-red;
       }
 
       a:hover {
@@ -53,15 +50,17 @@
 
   .presents {
     width: 100%;
-    text-align: right;
+    height: 30%;
+    text-align: center;
 
     .band-name {
-      font-size: 6rem;
+      font-size: 9rem;
+      text-shadow: 4px 4px black;
     }
 
     .performs {
       font-size: 2rem;
-      margin-bottom: .8rem;
+      margin-bottom: 0.8rem;
     }
 
     .album-title {
@@ -72,8 +71,6 @@
       font-size: 4rem;
       margin-top: 1rem;
     }
-
-
   }
 
   // .presents {
@@ -152,14 +149,11 @@
   //     margin-left: 1rem;
   //   }
 
-
-
   // }
 
   @media only screen and (max-width: 1024px) {
     .presents {
       .landing-list {
-
         width: 100%;
         color: $off-white-transparent;
 
@@ -177,7 +171,7 @@
 
 @media only screen and (max-width: 750px) {
   #landing {
-    background: url("../images/qc_blue_high.jpg");
+    background: url("../images/bathroom_mob.png");
 
     background-size: cover;
     background-position: center;
@@ -195,9 +189,7 @@
       flex: 1;
     }
 
-
     .landing-list {
-
       color: $off-white-transparent;
       display: block;
       width: 100%;
@@ -207,7 +199,6 @@
       text-align: center;
 
       li {
-
         display: inline;
         font-size: 2rem;
         padding: 1.6rem;
@@ -266,7 +257,6 @@
 
       .performs {
         font-size: 2rem;
-
       }
 
       .album-title {
@@ -276,12 +266,8 @@
 
       .show-date {
         font-size: 3rem;
-
       }
-
-
     }
-
   }
 
   // @media only screen and (max-width: 750px) {
@@ -343,8 +329,6 @@
   //         color: #C52241;
   //       }
 
-
-
   //       .performs {
   //         font-size: 1rem;
   //         width: 100%;
@@ -358,7 +342,6 @@
   //         padding: 0;
   //       }
   //     }
-
 
   //   }
   // }
@@ -437,7 +420,6 @@
       //   //   padding: 0;
       //   // }
 
-
       //   // .band-name {
       //   //   padding: 0;
       //   //   height: 60%;
@@ -456,11 +438,8 @@
       //   //   padding: 0;
       //   // }
       // }
-
-
     }
   }
-
 
   // #landing {
   //   // font-family: "Playfair Display", serif;
@@ -484,7 +463,6 @@
   //   // }
 
   //   .presents {
-
 
   //     h1,
   //     h2,
@@ -525,9 +503,6 @@
   //     margin-left: .8rem;
   //   }
 
-
-
-
   //   .landing-list {
   //     color: $off-white-transparent;
   //     width: 100%;
@@ -556,11 +531,9 @@
   // @media only screen and (max-width: 750px) {
   //   #landing {
 
-
   //     .presents {
 
   //       height: 70%;
-
 
   //       h1 {
   //         font-size: 1.8rem;
@@ -578,7 +551,6 @@
 
   //       .band-name-h1 {
   //         font-size: 3.5rem;
-
 
   //         text-align: center;
   //       }
@@ -696,7 +668,6 @@
   //       }
   //     }
 
-
   //   }
   // }
 
@@ -724,18 +695,14 @@
   //         font-size: 1.2rem;
   //       }
 
-
   //       .house-shows {
   //         text-shadow: 1px 1px 1px rgba(20, 20, 20, 1);
-
 
   //         .house-shows-list {
   //           width: 85%;
 
   //           margin-top: 1rem;
   //           font-size: 2rem;
-
-
 
   //           .house-show-li {
   //             text-aligN: center;
@@ -770,7 +737,6 @@
   //         font-size: 1rem;
   //         text-align: left;
   //       }
-
 
   //       h1,
   //       h2,
@@ -818,10 +784,7 @@
 
   //       }
 
-
   //     }
-
-
 
   //   }
 }
