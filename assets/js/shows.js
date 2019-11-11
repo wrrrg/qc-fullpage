@@ -173,22 +173,22 @@ const showlist = [
   //   facebook: "https://www.facebook.com/events/2242369892703872/"
 
   // },
-  {
-    date: "7/20",
-    venue: "The Blue Album @ Empire Garage",
-    city: "Austin, TX",
-    freeShow: false,
-    tickets: "http://bit.ly/WeezerBlue_July20",
-    facebook: "https://www.facebook.com/events/2242369892703872/"
-  },
-  {
-    date: "8/3",
-    venue: "Club Dada",
-    city: "Dallas, TX",
-    freeShow: false,
-    tickets: "https://www.eventbrite.com/e/quiet-company-club-dada-tickets-60824266017",
-    facebook: "https://www.facebook.com/events/668192896919551/?ti=ia"
-  },
+  // {
+  //   date: "7/20",
+  //   venue: "The Blue Album @ Empire Garage",
+  //   city: "Austin, TX",
+  //   freeShow: false,
+  //   tickets: "http://bit.ly/WeezerBlue_July20",
+  //   facebook: "https://www.facebook.com/events/2242369892703872/"
+  // },
+  // {
+  //   date: "8/3",
+  //   venue: "Club Dada",
+  //   city: "Dallas, TX",
+  //   freeShow: false,
+  //   tickets: "https://www.eventbrite.com/e/quiet-company-club-dada-tickets-60824266017",
+  //   facebook: "https://www.facebook.com/events/668192896919551/?ti=ia"
+  // },
   // {
   //   date: "9/6",
   //   venue: "Mohawk",
@@ -197,5 +197,21 @@ const showlist = [
   //   tickets: "https://www.eventbrite.com/e/quiet-company-club-dada-tickets-60824266017",
   //   // facebook: "https://www.facebook.com/events/2242369892703872/"
   // },
+  {
+    date: "10/5",
+    venue: "The Blue Album @ Paper Tiger",
+    city: "Austin, TX",
+    freeShow: false,
+    tickets: "https://www.eventbrite.com/e/quiet-company-as-weezer-tickets-71536514641",
+    // facebook: "https://www.facebook.com/events/2242369892703872/"
+  },
+  {
+    date: "11/1",
+    venue: "Barracuda",
+    city: "Austin, TX",
+    freeShow: false,
+    // tickets: "https://www.eventbrite.com/e/quiet-company-club-dada-tickets-60824266017",
+    // facebook: "https://www.facebook.com/events/2242369892703872/"
+  },
 
 ];
