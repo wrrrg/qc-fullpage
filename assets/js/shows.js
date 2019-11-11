@@ -194,22 +194,22 @@ const showlist = [
   // },
 
 
-  {
-    date: "7/20",
-    venue: "The Blue Album @ Empire Garage",
-    city: "Austin, TX",
-    freeShow: false,
-    tickets: "http://bit.ly/WeezerBlue_July20",
-    facebook: "https://www.facebook.com/events/2242369892703872/"
-  },
-  {
-    date: "8/3",
-    venue: "Club Dada",
-    city: "Dallas, TX",
-    freeShow: false,
-    tickets: "https://www.eventbrite.com/e/quiet-company-club-dada-tickets-60824266017",
-    facebook: "https://www.facebook.com/events/668192896919551/?ti=ia"
-  },
+  // {
+  //   date: "7/20",
+  //   venue: "The Blue Album @ Empire Garage",
+  //   city: "Austin, TX",
+  //   freeShow: false,
+  //   tickets: "http://bit.ly/WeezerBlue_July20",
+  //   facebook: "https://www.facebook.com/events/2242369892703872/"
+  // },
+  // {
+  //   date: "8/3",
+  //   venue: "Club Dada",
+  //   city: "Dallas, TX",
+  //   freeShow: false,
+  //   tickets: "https://www.eventbrite.com/e/quiet-company-club-dada-tickets-60824266017",
+  //   facebook: "https://www.facebook.com/events/668192896919551/?ti=ia"
+  // },
   // {
   //   date: "9/6",
   //   venue: "Mohawk",
@@ -218,5 +218,53 @@ const showlist = [
   //   tickets: "https://www.eventbrite.com/e/quiet-company-club-dada-tickets-60824266017",
   //   // facebook: "https://www.facebook.com/events/2242369892703872/"
   // },
+  // {
+  //   date: "10/5",
+  //   venue: "The Blue Album @ Paper Tiger",
+  //   city: "Austin, TX",
+  //   freeShow: false,
+  //   tickets: "https://www.eventbrite.com/e/quiet-company-as-weezer-tickets-71536514641",
+  //   // facebook: "https://www.facebook.com/events/2242369892703872/"
+  // },
+  // {
+  //   date: "11/1",
+  //   venue: "Barracuda",
+  //   city: "Austin, TX",
+  //   freeShow: false,
+  //   // tickets: "https://www.eventbrite.com/e/quiet-company-club-dada-tickets-60824266017",
+  //   // facebook: "https://www.facebook.com/events/2242369892703872/"
+  // },
 
+  {
+    date: "12/13",
+    venue: "Come and Take It",
+    city: "Austin, TX",
+    freeShow: false,
+    tickets: "https://www.eventbrite.com/e/ho-ho-homie-holiday-show-tickets-80402501045?aff=aff0songkick&sk_eid=39256965&uid=",
+    facebook: "https://www.facebook.com/events/come-and-take-it-live/ho-ho-homie-holiday-show/2562885327123854/"
+  },
+  {
+    date: "12/14",
+    venue: "Holiday House Show",
+    city: "Dallas, TX",
+    freeShow: false,
+    tickets: "https://quietcompany.bigcartel.com/product/dallas-holiday-house-show-on-dec-14th",
+    // facebook: "https://www.facebook.com/events/2242369892703872/"
+  },
+  {
+    date: "12/20",
+    venue: "Holiday House Show",
+    city: "Houston, TX",
+    freeShow: false,
+    tickets: "https://quietcompany.bigcartel.com/product/houston-holiday-house-show-on-dec-20th",
+    // facebook: "https://www.facebook.com/events/2242369892703872/"
+  },
+  {
+    date: "12/21",
+    venue: "Holiday House Show",
+    city: "Austin, TX",
+    freeShow: false,
+    tickets: "https://quietcompany.bigcartel.com/product/austin-holiday-house-show-on-dec-21st",
+    // facebook: "https://www.facebook.com/events/2242369892703872/"
+  },
 ];
