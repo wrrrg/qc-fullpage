@@ -235,36 +235,43 @@ const showlist = [
   //   // facebook: "https://www.facebook.com/events/2242369892703872/"
   // },
 
-  {
-    date: "12/13",
-    venue: "Come and Take It",
-    city: "Austin, TX",
-    freeShow: false,
-    tickets: "https://www.eventbrite.com/e/ho-ho-homie-holiday-show-tickets-80402501045?aff=aff0songkick&sk_eid=39256965&uid=",
-    facebook: "https://www.facebook.com/events/come-and-take-it-live/ho-ho-homie-holiday-show/2562885327123854/"
-  },
-  {
-    date: "12/14",
-    venue: "Holiday House Show",
-    city: "Dallas, TX",
-    freeShow: false,
-    tickets: "https://quietcompany.bigcartel.com/product/dallas-holiday-house-show-on-dec-14th",
-    // facebook: "https://www.facebook.com/events/2242369892703872/"
-  },
-  {
-    date: "12/20",
-    venue: "Holiday House Show",
-    city: "Houston, TX",
-    freeShow: false,
-    tickets: "https://quietcompany.bigcartel.com/product/houston-holiday-house-show-on-dec-20th",
-    // facebook: "https://www.facebook.com/events/2242369892703872/"
-  },
-  {
-    date: "12/21",
-    venue: "Holiday House Show",
-    city: "Austin, TX",
-    freeShow: false,
-    tickets: "https://quietcompany.bigcartel.com/product/austin-holiday-house-show-on-dec-21st",
-    // facebook: "https://www.facebook.com/events/2242369892703872/"
-  },
+  // {
+  //   date: "12/13",
+  //   venue: "Come and Take It",
+  //   city: "Austin, TX",
+  //   freeShow: false,
+  //   tickets: "https://www.eventbrite.com/e/ho-ho-homie-holiday-show-tickets-80402501045?aff=aff0songkick&sk_eid=39256965&uid=",
+  //   facebook: "https://www.facebook.com/events/come-and-take-it-live/ho-ho-homie-holiday-show/2562885327123854/"
+  // },
+  // {
+  //   date: "12/14",
+  //   venue: "Holiday House Show",
+  //   city: "Dallas, TX",
+  //   freeShow: false,
+  //   tickets: "https://quietcompany.bigcartel.com/product/dallas-holiday-house-show-on-dec-14th",
+  //   // facebook: "https://www.facebook.com/events/2242369892703872/"
+  // },
+  // {
+  //   date: "12/20",
+  //   venue: "Holiday House Show",
+  //   city: "Houston, TX",
+  //   freeShow: false,
+  //   tickets: "https://quietcompany.bigcartel.com/product/houston-holiday-house-show-on-dec-20th",
+  //   // facebook: "https://www.facebook.com/events/2242369892703872/"
+  // },
+  // {
+  //   date: "12/21",
+  //   venue: "Holiday House Show",
+  //   city: "Austin, TX",
+  //   freeShow: false,
+  //   tickets: "https://quietcompany.bigcartel.com/product/austin-holiday-house-show-on-dec-21st",
+  //   // facebook: "https://www.facebook.com/events/2242369892703872/"
+  // },
+ { date: "1/4",
+   venue: "Barracuda",
+  city: "Austin, TX",
+    freeShow: true,
+     // tickets: "https://quietcompany.bigcartel.com/product/austin-holiday-house-show-on-dec-21st",
+      facebook: "https://www.facebook.com/events/barracuda-austin/free-week-nolanpotternb-quiet-company-tvs-daniel-hong-kong-wigs/448805049045675/"
+   },
 ];
