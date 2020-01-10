@@ -267,11 +267,11 @@ const showlist = [
   //   tickets: "https://quietcompany.bigcartel.com/product/austin-holiday-house-show-on-dec-21st",
   //   // facebook: "https://www.facebook.com/events/2242369892703872/"
   // },
- { date: "1/4",
-   venue: "Barracuda",
-  city: "Austin, TX",
-    freeShow: true,
-     // tickets: "https://quietcompany.bigcartel.com/product/austin-holiday-house-show-on-dec-21st",
-      facebook: "https://www.facebook.com/events/barracuda-austin/free-week-nolanpotternb-quiet-company-tvs-daniel-hong-kong-wigs/448805049045675/"
-   },
+  //  { date: "1/4",
+  //    venue: "Barracuda",
+  //   city: "Austin, TX",
+  //     freeShow: true,
+  //      // tickets: "https://quietcompany.bigcartel.com/product/austin-holiday-house-show-on-dec-21st",
+  //       facebook: "https://www.facebook.com/events/barracuda-austin/free-week-nolanpotternb-quiet-company-tvs-daniel-hong-kong-wigs/448805049045675/"
+  //    },
 ];
