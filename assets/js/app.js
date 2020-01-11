@@ -125,8 +125,9 @@ $(document).ready(function () {
 
   $("#fullpage").fullpage({
     //options here
-    // anchors: [ 'landing', 'shows', 'store', 'about' ],
+    anchors: ['landing', 'shows', 'store', 'about'],
     autoScrolling: false,
+    fitToSection: false,
 
     // scrollHorizontally: true,
     css3: true,
