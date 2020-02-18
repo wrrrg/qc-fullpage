@@ -274,4 +274,20 @@ const showlist = [
   //      // tickets: "https://quietcompany.bigcartel.com/product/austin-holiday-house-show-on-dec-21st",
   //       facebook: "https://www.facebook.com/events/barracuda-austin/free-week-nolanpotternb-quiet-company-tvs-daniel-hong-kong-wigs/448805049045675/"
   //    },
+  {
+    date: "2/21",
+    venue: "Pershing",
+    city: "Austin, TX",
+    freeShow: false,
+    tickets: "https://www.eventbrite.com/e/pershing-kutx-present-the-eleventh-house-with-jet-or-not-tickets-92093206259",
+    facebook: "https://www.facebook.com/events/s/pershing-kutx-present-the-elev/475622616724469/"
+  },
+  {
+    date: "4/10",
+    venue: "Andy's Bar",
+    city: "Denton, TX",
+    freeShow: false,
+    tickets: "https://www.eventbrite.com/e/quiet-company-the-birds-of-night-tony-ferraro-andys-bar-venue-tickets-94502482469",
+    facebook: "https://www.facebook.com/events/197542141621366/"
+  },
 ];
