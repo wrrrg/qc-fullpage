@@ -282,6 +282,7 @@ const showlist = [
     tickets: "https://www.eventbrite.com/e/pershing-kutx-present-the-eleventh-house-with-jet-or-not-tickets-92093206259",
     facebook: "https://www.facebook.com/events/s/pershing-kutx-present-the-elev/475622616724469/"
   },
+
   {
     date: "4/10",
     venue: "Andy's Bar",
@@ -290,4 +291,12 @@ const showlist = [
     tickets: "https://www.eventbrite.com/e/quiet-company-the-birds-of-night-tony-ferraro-andys-bar-venue-tickets-94502482469",
     facebook: "https://www.facebook.com/events/197542141621366/"
   },
+  {
+    date: "4/18",
+    venue: "04 Center",
+    city: "Austin, TX",
+    freeShow: false,
+    tickets: "https://www.prekindle.com/event/63541-an-evening-with-quiet-company-with-special-guests-austin",
+    facebook: "https://www.facebook.com/events/218083722919630"
+  }
 ];
